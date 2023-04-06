@@ -1,0 +1,1538 @@
+Script started on 2023-04-06 08:14:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="168" LINES="43"]
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git clone https://git.kernel.org/pub/scm/git/git.git
+Cloning into 'git'...
+remote: Enumerating objects: 345229, done.[K
+Receiving objects:   0% (1/345229)Receiving objects:   1% (3453/345229), 1.34 MiB | 1.69 MiB/sReceiving objects:   1% (4960/345229), 1.34 MiB | 1.69 MiB/sReceiving objects:   2% (6905/345229), 1.34 MiB | 1.69 MiB/sReceiving objects:   3% (10357/345229), 4.51 MiB | 3.48 MiB/sReceiving objects:   3% (10990/345229), 5.01 MiB | 2.79 MiB/sReceiving objects:   3% (13279/345229), 6.03 MiB | 2.15 MiB/sReceiving objects:   4% (13810/345229), 6.03 MiB | 2.15 MiB/sReceiving objects:   4% (15659/345229), 7.11 MiB | 1.86 MiB/sReceiving objects:   5% (17262/345229), 7.65 MiB | 1.77 MiB/sReceiving objects:   5% (18376/345229), 8.22 MiB | 1.70 MiB/sReceiving objects:   6% (20714/345229), 8.81 MiB | 1.64 MiB/sReceiving objects:   6% (21392/345229), 9.43 MiB | 1.08 MiB/sReceiving objects:   7% (24167/345229), 10.68 MiB | 1.13 MiB/sReceiving objects:   7% (24515/345229), 10.68 MiB | 1.13 MiB/sReceiving objects:   8% (27619/345229), 12.01 MiB | 1.20 MiB/sReceiving objects:   8% (27720/345229), 12.01 MiB | 1.20 MiB/sReceiving objects:   9% (31071/345229), 13.39 MiB | 1.26 MiB/sReceiving objects:   9% (31273/345229), 13.39 MiB | 1.26 MiB/sReceiving objects:  10% (34523/345229), 14.09 MiB | 1.29 MiB/sReceiving objects:  10% (36261/345229), 14.80 MiB | 1.32 MiB/sReceiving objects:  11% (37976/345229), 15.54 MiB | 1.34 MiB/sReceiving objects:  11% (40115/345229), 16.29 MiB | 1.37 MiB/sReceiving objects:  12% (41428/345229), 16.29 MiB | 1.37 MiB/sReceiving objects:  12% (44352/345229), 17.85 MiB | 1.43 MiB/sReceiving objects:  13% (44880/345229), 17.85 MiB | 1.43 MiB/sReceiving objects:  14% (48333/345229), 18.64 MiB | 1.45 MiB/sReceiving objects:  14% (48632/345229), 19.44 MiB | 1.48 MiB/sReceiving objects:  15% (51785/345229), 20.27 MiB | 1.51 MiB/sReceiving objects:  15% (53266/345229), 21.11 MiB | 1.54 MiB/sReceiving objects:  16% (55237/345229), 21.11 MiB | 1.54 MiB/sReceiving objects:  16% (58135/345229), 22.82 MiB | 1.60 MiB/sReceiving objects:  17% (58689/345229), 22.82 MiB | 1.60 MiB/sReceiving objects:  18% (62142/345229), 23.69 MiB | 1.63 MiB/sReceiving objects:  18% (62978/345229), 24.57 MiB | 1.65 MiB/sReceiving objects:  19% (65594/345229), 25.48 MiB | 1.68 MiB/sReceiving objects:  19% (68539/345229), 26.37 MiB | 1.71 MiB/sReceiving objects:  20% (69046/345229), 26.37 MiB | 1.71 MiB/sReceiving objects:  21% (72499/345229), 27.32 MiB | 1.74 MiB/sReceiving objects:  21% (73250/345229), 28.29 MiB | 1.77 MiB/sReceiving objects:  21% (74670/345229), 30.27 MiB | 1.84 MiB/sReceiving objects:  22% (75951/345229), 31.29 MiB | 1.87 MiB/sReceiving objects:  22% (76161/345229), 32.32 MiB | 1.91 MiB/sReceiving objects:  22% (77007/345229), 33.37 MiB | 1.94 MiB/sReceiving objects:  22% (77039/345229), 35.51 MiB | 2.00 MiB/sReceiving objects:  22% (77084/345229), 38.76 MiB | 2.08 MiB/sReceiving objects:  22% (79366/345229), 39.89 MiB | 2.11 MiB/sReceiving objects:  23% (79403/345229), 39.89 MiB | 2.11 MiB/sReceiving objects:  23% (82828/345229), 42.17 MiB | 2.15 MiB/sReceiving objects:  24% (82855/345229), 42.17 MiB | 2.15 MiB/sReceiving objects:  25% (86308/345229), 43.32 MiB | 2.17 MiB/sReceiving objects:  26% (89760/345229), 44.50 MiB | 2.19 MiB/sReceiving objects:  26% (90805/345229), 44.50 MiB | 2.19 MiB/sReceiving objects:  26% (90895/345229), 46.86 MiB | 2.24 MiB/sReceiving objects:  27% (93212/345229), 47.95 MiB | 2.24 MiB/sReceiving objects:  27% (96539/345229), 49.15 MiB | 2.26 MiB/sReceiving objects:  28% (96665/345229), 49.15 MiB | 2.26 MiB/sReceiving objects:  29% (100117/345229), 50.36 MiB | 2.27 MiB/sReceiving objects:  29% (101709/345229), 51.58 MiB | 2.29 MiB/sReceiving objects:  30% (103569/345229), 51.58 MiB | 2.29 MiB/sReceiving objects:  31% (107021/345229), 52.76 MiB | 2.30 MiB/sReceiving objects:  32% (110474/345229), 53.98 MiB | 2.32 MiB/sReceiving objects:  32% (113468/345229), 53.98 MiB | 2.32 MiB/sReceiving objects:  33% (113926/345229), 53.98 MiB | 2.32 MiB/sReceiving objects:  34% (117378/345229), 55.20 MiB | 2.33 MiB/sReceiving objects:  34% (119153/345229), 56.41 MiB | 2.33 MiB/sReceiving objects:  35% (120831/345229), 58.80 MiB | 2.36 MiB/sReceiving objects:  35% (124142/345229), 58.80 MiB | 2.36 MiB/sReceiving objects:  36% (124283/345229), 58.80 MiB | 2.36 MiB/sReceiving objects:  37% (127735/345229), 60.07 MiB | 2.38 MiB/sReceiving objects:  37% (130258/345229), 61.29 MiB | 2.39 MiB/sReceiving objects:  38% (131188/345229), 61.29 MiB | 2.39 MiB/sReceiving objects:  39% (134640/345229), 62.50 MiB | 2.39 MiB/sReceiving objects:  40% (138092/345229), 62.50 MiB | 2.39 MiB/sReceiving objects:  41% (141544/345229), 63.75 MiB | 2.40 MiB/sReceiving objects:  41% (143022/345229), 63.75 MiB | 2.40 MiB/sReceiving objects:  42% (144997/345229), 63.75 MiB | 2.40 MiB/sReceiving objects:  43% (148449/345229), 65.03 MiB | 2.42 MiB/sReceiving objects:  44% (151901/345229), 65.03 MiB | 2.42 MiB/sReceiving objects:  45% (155354/345229), 66.27 MiB | 2.42 MiB/sReceiving objects:  45% (157964/345229), 66.27 MiB | 2.42 MiB/sReceiving objects:  46% (158806/345229), 66.27 MiB | 2.42 MiB/sReceiving objects:  47% (162258/345229), 67.48 MiB | 2.42 MiB/sReceiving objects:  47% (165585/345229), 68.76 MiB | 2.43 MiB/sReceiving objects:  48% (165710/345229), 68.76 MiB | 2.43 MiB/sReceiving objects:  49% (169163/345229), 70.04 MiB | 2.44 MiB/sReceiving objects:  49% (172296/345229), 71.32 MiB | 2.44 MiB/sReceiving objects:  50% (172615/345229), 71.32 MiB | 2.44 MiB/sReceiving objects:  51% (176067/345229), 71.32 MiB | 2.44 MiB/sReceiving objects:  52% (179520/345229), 72.62 MiB | 2.45 MiB/sReceiving objects:  53% (182972/345229), 72.62 MiB | 2.45 MiB/sReceiving objects:  53% (186061/345229), 73.94 MiB | 2.47 MiB/sReceiving objects:  54% (186424/345229), 73.94 MiB | 2.47 MiB/sReceiving objects:  55% (189876/345229), 73.94 MiB | 2.47 MiB/sReceiving objects:  56% (193329/345229), 75.27 MiB | 2.48 MiB/sReceiving objects:  57% (196781/345229), 76.61 MiB | 2.50 MiB/sReceiving objects:  57% (197038/345229), 76.61 MiB | 2.50 MiB/sReceiving objects:  58% (200233/345229), 76.61 MiB | 2.50 MiB/sReceiving objects:  59% (203686/345229), 77.96 MiB | 2.52 MiB/sReceiving objects:  60% (207138/345229), 77.96 MiB | 2.52 MiB/sReceiving objects:  61% (210590/345229), 79.28 MiB | 2.55 MiB/sReceiving objects:  61% (211099/345229), 79.28 MiB | 2.55 MiB/sReceiving objects:  62% (214042/345229), 79.28 MiB | 2.55 MiB/sReceiving objects:  63% (217495/345229), 79.28 MiB | 2.55 MiB/sReceiving objects:  64% (220947/345229), 80.64 MiB | 2.58 MiB/sReceiving objects:  64% (222921/345229), 81.93 MiB | 2.60 MiB/sReceiving objects:  65% (224399/345229), 81.93 MiB | 2.60 MiB/sReceiving objects:  66% (227852/345229), 81.93 MiB | 2.60 MiB/sReceiving objects:  67% (231304/345229), 83.32 MiB | 2.62 MiB/sReceiving objects:  68% (234756/345229), 83.32 MiB | 2.62 MiB/sReceiving objects:  68% (237456/345229), 84.74 MiB | 2.64 MiB/sReceiving objects:  69% (238209/345229), 84.74 MiB | 2.64 MiB/sReceiving objects:  69% (239264/345229), 87.59 MiB | 2.69 MiB/sReceiving objects:  69% (239916/345229), 90.37 MiB | 2.72 MiB/sReceiving objects:  69% (240795/345229), 93.23 MiB | 2.76 MiB/sReceiving objects:  70% (241661/345229), 94.65 MiB | 2.79 MiB/sReceiving objects:  71% (245113/345229), 94.65 MiB | 2.79 MiB/sReceiving objects:  71% (245592/345229), 96.15 MiB | 2.82 MiB/sReceiving objects:  72% (248565/345229), 96.15 MiB | 2.82 MiB/sReceiving objects:  73% (252018/345229), 97.67 MiB | 2.84 MiB/sReceiving objects:  74% (255470/345229), 97.67 MiB | 2.84 MiB/sReceiving objects:  75% (258922/345229), 97.67 MiB | 2.84 MiB/sReceiving objects:  75% (259201/345229), 97.67 MiB | 2.84 MiB/sReceiving objects:  76% (262375/345229), 99.18 MiB | 2.87 MiB/sReceiving objects:  77% (265827/345229), 99.18 MiB | 2.87 MiB/sReceiving objects:  78% (269279/345229), 100.66 MiB | 2.88 MiB/sReceiving objects:  79% (272731/345229), 100.66 MiB | 2.88 MiB/sReceiving objects:  79% (276043/345229), 100.66 MiB | 2.88 MiB/sReceiving objects:  80% (276184/345229), 102.16 MiB | 2.90 MiB/sReceiving objects:  81% (279636/345229), 102.16 MiB | 2.90 MiB/sReceiving objects:  82% (283088/345229), 102.16 MiB | 2.90 MiB/sReceiving objects:  83% (286541/345229), 103.72 MiB | 2.92 MiB/sReceiving objects:  84% (289993/345229), 103.72 MiB | 2.92 MiB/sReceiving objects:  85% (293445/345229), 103.72 MiB | 2.92 MiB/sReceiving objects:  85% (295379/345229), 103.72 MiB | 2.92 MiB/sReceiving objects:  86% (296897/345229), 105.30 MiB | 2.94 MiB/sReceiving objects:  87% (300350/345229), 105.30 MiB | 2.94 MiB/sReceiving objects:  88% (303802/345229), 105.30 MiB | 2.94 MiB/sReceiving objects:  89% (307254/345229), 106.86 MiB | 2.96 MiB/sReceiving objects:  90% (310707/345229), 106.86 MiB | 2.96 MiB/sReceiving objects:  91% (314159/345229), 106.86 MiB | 2.96 MiB/sReceiving objects:  91% (314421/345229), 106.86 MiB | 2.96 MiB/sReceiving objects:  92% (317611/345229), 108.43 MiB | 2.99 MiB/sReceiving objects:  93% (321063/345229), 108.43 MiB | 2.99 MiB/sReceiving objects:  94% (324516/345229), 108.43 MiB | 2.99 MiB/sReceiving objects:  95% (327968/345229), 110.01 MiB | 3.00 MiB/sReceiving objects:  96% (331420/345229), 110.01 MiB | 3.00 MiB/sReceiving objects:  96% (333734/345229), 110.01 MiB | 3.00 MiB/sReceiving objects:  97% (334873/345229), 110.01 MiB | 3.00 MiB/sReceiving objects:  98% (338325/345229), 111.61 MiB | 3.01 MiB/sReceiving objects:  99% (341777/345229), 111.61 MiB | 3.01 MiB/sremote: Total 345229 (delta 0), reused 0 (delta 0), pack-reused 345229[K
+Receiving objects: 100% (345229/345229), 111.61 MiB | 3.01 MiB/sReceiving objects: 100% (345229/345229), 112.80 MiB | 2.19 MiB/s, done.
+Resolving deltas:   0% (0/259420)Resolving deltas:   1% (2627/259420)Resolving deltas:   2% (5265/259420)Resolving deltas:   3% (7783/259420)Resolving deltas:   4% (10404/259420)Resolving deltas:   5% (13020/259420)Resolving deltas:   6% (15570/259420)Resolving deltas:   7% (18552/259420)Resolving deltas:   8% (21018/259420)Resolving deltas:   9% (23478/259420)Resolving deltas:  10% (25968/259420)Resolving deltas:  11% (29099/259420)Resolving deltas:  11% (30327/259420)Resolving deltas:  12% (31138/259420)Resolving deltas:  13% (33909/259420)Resolving deltas:  14% (36324/259420)Resolving deltas:  15% (39007/259420)Resolving deltas:  16% (41545/259420)Resolving deltas:  16% (42764/259420)Resolving deltas:  17% (44484/259420)Resolving deltas:  18% (46721/259420)Resolving deltas:  19% (49853/259420)Resolving deltas:  20% (51898/259420)Resolving deltas:  21% (54489/259420)Resolving deltas:  22% (57080/259420)Resolving deltas:  23% (59702/259420)Resolving deltas:  24% (62264/259420)Resolving deltas:  25% (64857/259420)Resolving deltas:  26% (67676/259420)Resolving deltas:  27% (70120/259420)Resolving deltas:  28% (72857/259420)Resolving deltas:  28% (73884/259420)Resolving deltas:  29% (75598/259420)Resolving deltas:  30% (78078/259420)Resolving deltas:  31% (80458/259420)Resolving deltas:  32% (83020/259420)Resolving deltas:  33% (85759/259420)Resolving deltas:  34% (88464/259420)Resolving deltas:  35% (91045/259420)Resolving deltas:  36% (93395/259420)Resolving deltas:  37% (96015/259420)Resolving deltas:  38% (98599/259420)Resolving deltas:  39% (101244/259420)Resolving deltas:  40% (103876/259420)Resolving deltas:  41% (106461/259420)Resolving deltas:  42% (108963/259420)Resolving deltas:  43% (111959/259420)Resolving deltas:  44% (114168/259420)Resolving deltas:  45% (116764/259420)Resolving deltas:  46% (119334/259420)Resolving deltas:  46% (119453/259420)Resolving deltas:  47% (121950/259420)Resolving deltas:  48% (124565/259420)Resolving deltas:  49% (127134/259420)Resolving deltas:  50% (129912/259420)Resolving deltas:  51% (132351/259420)Resolving deltas:  52% (134970/259420)Resolving deltas:  53% (137832/259420)Resolving deltas:  54% (140097/259420)Resolving deltas:  54% (142117/259420)Resolving deltas:  55% (142818/259420)Resolving deltas:  56% (145308/259420)Resolving deltas:  57% (147891/259420)Resolving deltas:  58% (150467/259420)Resolving deltas:  59% (153123/259420)Resolving deltas:  60% (155793/259420)Resolving deltas:  61% (158537/259420)Resolving deltas:  62% (160890/259420)Resolving deltas:  63% (163516/259420)Resolving deltas:  63% (165643/259420)Resolving deltas:  64% (166110/259420)Resolving deltas:  65% (168749/259420)Resolving deltas:  66% (171265/259420)Resolving deltas:  67% (173827/259420)Resolving deltas:  68% (176554/259420)Resolving deltas:  69% (179067/259420)Resolving deltas:  70% (181955/259420)Resolving deltas:  71% (184221/259420)Resolving deltas:  72% (186914/259420)Resolving deltas:  73% (189482/259420)Resolving deltas:  74% (192017/259420)Resolving deltas:  74% (192409/259420)Resolving deltas:  75% (194634/259420)Resolving deltas:  76% (197668/259420)Resolving deltas:  77% (199958/259420)Resolving deltas:  78% (202350/259420)Resolving deltas:  79% (204942/259420)Resolving deltas:  80% (207750/259420)Resolving deltas:  81% (210142/259420)Resolving deltas:  82% (212733/259420)Resolving deltas:  83% (215366/259420)Resolving deltas:  84% (217941/259420)Resolving deltas:  85% (220613/259420)Resolving deltas:  86% (223144/259420)Resolving deltas:  86% (225680/259420)Resolving deltas:  87% (225721/259420)Resolving deltas:  88% (228461/259420)Resolving deltas:  89% (230893/259420)Resolving deltas:  90% (233493/259420)Resolving deltas:  91% (236129/259420)Resolving deltas:  92% (238799/259420)Resolving deltas:  93% (241310/259420)Resolving deltas:  94% (243855/259420)Resolving deltas:  95% (246524/259420)Resolving deltas:  96% (249067/259420)Resolving deltas:  97% (251828/259420)Resolving deltas:  98% (254310/259420)Resolving deltas:  99% (256856/259420)Resolving deltas: 100% (259420/259420)Resolving deltas: 100% (259420/259420), done.
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git config --list --show-origin
+[?1h=file:/home/ankushtiger/.gitconfig       user.name=Ankush Saha[m
+file:/home/ankushtiger/.gitconfig       user.email=ankush.saha@tigeranalytics.com[m
+file:/home/ankushtiger/.gitconfig       alias.co=checkout[m
+file:/home/ankushtiger/.gitconfig       alias.br=branch[m
+file:/home/ankushtiger/.gitconfig       alias.ci=commit[m
+file:/home/ankushtiger/.gitconfig       alias.st=status[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git add -h
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git clone https://github.com/libgit2/libgit2 mylibgit
+Cloning into 'mylibgit'...
+remote: Enumerating objects: 121344, done.[K
+remote: Counting objects:   0% (1/121344)[Kremote: Counting objects:   1% (1214/121344)[Kremote: Counting objects:   2% (2427/121344)[Kremote: Counting objects:   3% (3641/121344)[Kremote: Counting objects:   4% (4854/121344)[Kremote: Counting objects:   5% (6068/121344)[Kremote: Counting objects:   6% (7281/121344)[Kremote: Counting objects:   7% (8495/121344)[Kremote: Counting objects:   8% (9708/121344)[Kremote: Counting objects:   9% (10921/121344)[Kremote: Counting objects:  10% (12135/121344)[Kremote: Counting objects:  11% (13348/121344)[Kremote: Counting objects:  12% (14562/121344)[Kremote: Counting objects:  13% (15775/121344)[Kremote: Counting objects:  14% (16989/121344)[Kremote: Counting objects:  15% (18202/121344)[Kremote: Counting objects:  16% (19416/121344)[Kremote: Counting objects:  17% (20629/121344)[Kremote: Counting objects:  18% (21842/121344)[Kremote: Counting objects:  19% (23056/121344)[Kremote: Counting objects:  20% (24269/121344)[Kremote: Counting objects:  21% (25483/121344)[Kremote: Counting objects:  22% (26696/121344)[Kremote: Counting objects:  23% (27910/121344)[Kremote: Counting objects:  24% (29123/121344)[Kremote: Counting objects:  25% (30336/121344)[Kremote: Counting objects:  26% (31550/121344)[Kremote: Counting objects:  27% (32763/121344)[Kremote: Counting objects:  28% (33977/121344)[Kremote: Counting objects:  29% (35190/121344)[Kremote: Counting objects:  30% (36404/121344)[Kremote: Counting objects:  31% (37617/121344)[Kremote: Counting objects:  32% (38831/121344)[Kremote: Counting objects:  33% (40044/121344)[Kremote: Counting objects:  34% (41257/121344)[Kremote: Counting objects:  35% (42471/121344)[Kremote: Counting objects:  36% (43684/121344)[Kremote: Counting objects:  37% (44898/121344)[Kremote: Counting objects:  38% (46111/121344)[Kremote: Counting objects:  39% (47325/121344)[Kremote: Counting objects:  40% (48538/121344)[Kremote: Counting objects:  41% (49752/121344)[Kremote: Counting objects:  42% (50965/121344)[Kremote: Counting objects:  43% (52178/121344)[Kremote: Counting objects:  44% (53392/121344)[Kremote: Counting objects:  45% (54605/121344)[Kremote: Counting objects:  46% (55819/121344)[Kremote: Counting objects:  47% (57032/121344)[Kremote: Counting objects:  48% (58246/121344)[Kremote: Counting objects:  49% (59459/121344)[Kremote: Counting objects:  50% (60672/121344)[Kremote: Counting objects:  51% (61886/121344)[Kremote: Counting objects:  52% (63099/121344)[Kremote: Counting objects:  53% (64313/121344)[Kremote: Counting objects:  54% (65526/121344)[Kremote: Counting objects:  55% (66740/121344)[Kremote: Counting objects:  56% (67953/121344)[Kremote: Counting objects:  57% (69167/121344)[Kremote: Counting objects:  58% (70380/121344)[Kremote: Counting objects:  59% (71593/121344)[Kremote: Counting objects:  60% (72807/121344)[Kremote: Counting objects:  61% (74020/121344)[Kremote: Counting objects:  62% (75234/121344)[Kremote: Counting objects:  63% (76447/121344)[Kremote: Counting objects:  64% (77661/121344)[Kremote: Counting objects:  65% (78874/121344)[Kremote: Counting objects:  66% (80088/121344)[Kremote: Counting objects:  67% (81301/121344)[Kremote: Counting objects:  68% (82514/121344)[Kremote: Counting objects:  69% (83728/121344)[Kremote: Counting objects:  70% (84941/121344)[Kremote: Counting objects:  71% (86155/121344)[Kremote: Counting objects:  72% (87368/121344)[Kremote: Counting objects:  73% (88582/121344)[Kremote: Counting objects:  74% (89795/121344)[Kremote: Counting objects:  75% (91008/121344)[Kremote: Counting objects:  76% (92222/121344)[Kremote: Counting objects:  77% (93435/121344)[Kremote: Counting objects:  78% (94649/121344)[Kremote: Counting objects:  79% (95862/121344)[Kremote: Counting objects:  80% (97076/121344)[Kremote: Counting objects:  81% (98289/121344)[Kremote: Counting objects:  82% (99503/121344)[Kremote: Counting objects:  83% (100716/121344)[Kremote: Counting objects:  84% (101929/121344)[Kremote: Counting objects:  85% (103143/121344)[Kremote: Counting objects:  86% (104356/121344)[Kremote: Counting objects:  87% (105570/121344)[Kremote: Counting objects:  88% (106783/121344)[Kremote: Counting objects:  89% (107997/121344)[Kremote: Counting objects:  90% (109210/121344)[Kremote: Counting objects:  91% (110424/121344)[Kremote: Counting objects:  92% (111637/121344)[Kremote: Counting objects:  93% (112850/121344)[Kremote: Counting objects:  94% (114064/121344)[Kremote: Counting objects:  95% (115277/121344)[Kremote: Counting objects:  96% (116491/121344)[Kremote: Counting objects:  97% (117704/121344)[Kremote: Counting objects:  98% (118918/121344)[Kremote: Counting objects:  99% (120131/121344)[Kremote: Counting objects: 100% (121344/121344)[Kremote: Counting objects: 100% (121344/121344), done.[K
+remote: Compressing objects:   0% (1/33300)[Kremote: Compressing objects:   1% (333/33300)[Kremote: Compressing objects:   2% (666/33300)[Kremote: Compressing objects:   3% (999/33300)[Kremote: Compressing objects:   4% (1332/33300)[Kremote: Compressing objects:   5% (1665/33300)[Kremote: Compressing objects:   6% (1998/33300)[Kremote: Compressing objects:   7% (2331/33300)[Kremote: Compressing objects:   8% (2664/33300)[Kremote: Compressing objects:   9% (2997/33300)[Kremote: Compressing objects:  10% (3330/33300)[Kremote: Compressing objects:  11% (3663/33300)[Kremote: Compressing objects:  12% (3996/33300)[Kremote: Compressing objects:  13% (4329/33300)[Kremote: Compressing objects:  14% (4662/33300)[Kremote: Compressing objects:  15% (4995/33300)[Kremote: Compressing objects:  16% (5328/33300)[Kremote: Compressing objects:  17% (5661/33300)[Kremote: Compressing objects:  18% (5994/33300)[Kremote: Compressing objects:  19% (6327/33300)[Kremote: Compressing objects:  20% (6660/33300)[Kremote: Compressing objects:  21% (6993/33300)[Kremote: Compressing objects:  22% (7326/33300)[Kremote: Compressing objects:  23% (7659/33300)[Kremote: Compressing objects:  24% (7992/33300)[Kremote: Compressing objects:  25% (8325/33300)[Kremote: Compressing objects:  26% (8658/33300)[Kremote: Compressing objects:  27% (8991/33300)[Kremote: Compressing objects:  28% (9324/33300)[Kremote: Compressing objects:  29% (9657/33300)[Kremote: Compressing objects:  30% (9990/33300)[Kremote: Compressing objects:  31% (10323/33300)[Kremote: Compressing objects:  32% (10656/33300)[Kremote: Compressing objects:  33% (10989/33300)[Kremote: Compressing objects:  34% (11322/33300)[Kremote: Compressing objects:  35% (11655/33300)[Kremote: Compressing objects:  36% (11988/33300)[Kremote: Compressing objects:  37% (12321/33300)[Kremote: Compressing objects:  38% (12654/33300)[Kremote: Compressing objects:  39% (12987/33300)[Kremote: Compressing objects:  40% (13320/33300)[Kremote: Compressing objects:  41% (13653/33300)[Kremote: Compressing objects:  42% (13986/33300)[Kremote: Compressing objects:  43% (14319/33300)[Kremote: Compressing objects:  44% (14652/33300)[Kremote: Compressing objects:  45% (14985/33300)[Kremote: Compressing objects:  46% (15318/33300)[Kremote: Compressing objects:  47% (15651/33300)[Kremote: Compressing objects:  48% (15984/33300)[Kremote: Compressing objects:  49% (16317/33300)[Kremote: Compressing objects:  50% (16650/33300)[Kremote: Compressing objects:  51% (16983/33300)[Kremote: Compressing objects:  52% (17316/33300)[Kremote: Compressing objects:  53% (17649/33300)[Kremote: Compressing objects:  54% (17982/33300)[Kremote: Compressing objects:  55% (18315/33300)[Kremote: Compressing objects:  56% (18648/33300)[Kremote: Compressing objects:  57% (18981/33300)[Kremote: Compressing objects:  58% (19314/33300)[Kremote: Compressing objects:  59% (19647/33300)[Kremote: Compressing objects:  60% (19980/33300)[Kremote: Compressing objects:  61% (20313/33300)[Kremote: Compressing objects:  62% (20646/33300)[Kremote: Compressing objects:  63% (20979/33300)[Kremote: Compressing objects:  64% (21312/33300)[Kremote: Compressing objects:  65% (21645/33300)[Kremote: Compressing objects:  66% (21978/33300)[Kremote: Compressing objects:  67% (22311/33300)[Kremote: Compressing objects:  68% (22644/33300)[Kremote: Compressing objects:  69% (22977/33300)[Kremote: Compressing objects:  70% (23310/33300)[Kremote: Compressing objects:  71% (23643/33300)[Kremote: Compressing objects:  72% (23976/33300)[Kremote: Compressing objects:  73% (24309/33300)[Kremote: Compressing objects:  74% (24642/33300)[Kremote: Compressing objects:  75% (24975/33300)[Kremote: Compressing objects:  76% (25308/33300)[Kremote: Compressing objects:  77% (25641/33300)[Kremote: Compressing objects:  78% (25974/33300)[Kremote: Compressing objects:  79% (26307/33300)[Kremote: Compressing objects:  80% (26640/33300)[Kremote: Compressing objects:  81% (26973/33300)[Kremote: Compressing objects:  82% (27306/33300)[Kremote: Compressing objects:  83% (27639/33300)[Kremote: Compressing objects:  84% (27972/33300)[Kremote: Compressing objects:  85% (28305/33300)[Kremote: Compressing objects:  86% (28638/33300)[Kremote: Compressing objects:  87% (28971/33300)[Kremote: Compressing objects:  88% (29304/33300)[Kremote: Compressing objects:  89% (29637/33300)[Kremote: Compressing objects:  90% (29970/33300)[Kremote: Compressing objects:  91% (30303/33300)[Kremote: Compressing objects:  92% (30636/33300)[Kremote: Compressing objects:  93% (30969/33300)[Kremote: Compressing objects:  94% (31302/33300)[Kremote: Compressing objects:  95% (31635/33300)[Kremote: Compressing objects:  96% (31968/33300)[Kremote: Compressing objects:  97% (32301/33300)[Kremote: Compressing objects:  98% (32634/33300)[Kremote: Compressing objects:  99% (32967/33300)[Kremote: Compressing objects: 100% (33300/33300)[Kremote: Compressing objects: 100% (33300/33300), done.[K
+Receiving objects:   0% (1/121344)Receiving objects:   1% (1214/121344)Receiving objects:   2% (2427/121344)Receiving objects:   3% (3641/121344)Receiving objects:   4% (4854/121344)Receiving objects:   5% (6068/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:   6% (7281/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:   7% (8495/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:   8% (9708/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:   9% (10921/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:  10% (12135/121344), 1.81 MiB | 3.62 MiB/sReceiving objects:  10% (12437/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  11% (13348/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  12% (14562/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  13% (15775/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  14% (16989/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  15% (18202/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  16% (19416/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  17% (20629/121344), 3.69 MiB | 3.69 MiB/sReceiving objects:  18% (21842/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  19% (23056/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  20% (24269/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  21% (25483/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  22% (26696/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  22% (27811/121344), 5.50 MiB | 3.63 MiB/sReceiving objects:  23% (27910/121344), 9.25 MiB | 3.68 MiB/sReceiving objects:  23% (27965/121344), 9.25 MiB | 3.68 MiB/sReceiving objects:  23% (28809/121344), 12.92 MiB | 3.67 MiB/sReceiving objects:  24% (29123/121344), 13.82 MiB | 3.37 MiB/sReceiving objects:  25% (30336/121344), 13.82 MiB | 3.37 MiB/sReceiving objects:  25% (31276/121344), 15.42 MiB | 3.34 MiB/sReceiving objects:  26% (31550/121344), 15.91 MiB | 3.02 MiB/sReceiving objects:  26% (31947/121344), 16.55 MiB | 2.74 MiB/sReceiving objects:  27% (32763/121344), 17.28 MiB | 2.51 MiB/sReceiving objects:  28% (33977/121344), 18.07 MiB | 2.26 MiB/sReceiving objects:  28% (34386/121344), 18.07 MiB | 2.26 MiB/sReceiving objects:  28% (35137/121344), 19.85 MiB | 1.85 MiB/sReceiving objects:  29% (35190/121344), 19.85 MiB | 1.85 MiB/sReceiving objects:  30% (36404/121344), 20.79 MiB | 1.67 MiB/sReceiving objects:  31% (37617/121344), 21.79 MiB | 1.71 MiB/sReceiving objects:  32% (38831/121344), 21.79 MiB | 1.71 MiB/sReceiving objects:  32% (38893/121344), 21.79 MiB | 1.71 MiB/sReceiving objects:  33% (40044/121344), 22.88 MiB | 1.61 MiB/sReceiving objects:  34% (41257/121344), 22.88 MiB | 1.61 MiB/sReceiving objects:  35% (42471/121344), 23.97 MiB | 1.75 MiB/sReceiving objects:  35% (42487/121344), 23.97 MiB | 1.75 MiB/sReceiving objects:  36% (43684/121344), 25.21 MiB | 1.89 MiB/sReceiving objects:  37% (44898/121344), 26.44 MiB | 2.00 MiB/sReceiving objects:  37% (45694/121344), 26.44 MiB | 2.00 MiB/sReceiving objects:  38% (46111/121344), 26.44 MiB | 2.00 MiB/sReceiving objects:  39% (47325/121344), 27.78 MiB | 2.13 MiB/sReceiving objects:  40% (48538/121344), 27.78 MiB | 2.13 MiB/sReceiving objects:  41% (49752/121344), 29.18 MiB | 2.26 MiB/sReceiving objects:  42% (50965/121344), 29.18 MiB | 2.26 MiB/sReceiving objects:  42% (50976/121344), 29.18 MiB | 2.26 MiB/sReceiving objects:  43% (52178/121344), 29.18 MiB | 2.26 MiB/sReceiving objects:  44% (53392/121344), 29.18 MiB | 2.26 MiB/sReceiving objects:  45% (54605/121344), 30.57 MiB | 2.36 MiB/sReceiving objects:  45% (55093/121344), 32.10 MiB | 2.49 MiB/sReceiving objects:  46% (55819/121344), 32.10 MiB | 2.49 MiB/sReceiving objects:  47% (57032/121344), 32.10 MiB | 2.49 MiB/sReceiving objects:  48% (58246/121344), 33.68 MiB | 2.62 MiB/sReceiving objects:  49% (59459/121344), 33.68 MiB | 2.62 MiB/sReceiving objects:  49% (59724/121344), 35.22 MiB | 2.71 MiB/sReceiving objects:  50% (60672/121344), 36.93 MiB | 2.84 MiB/sReceiving objects:  51% (61886/121344), 36.93 MiB | 2.84 MiB/sReceiving objects:  52% (63099/121344), 36.93 MiB | 2.84 MiB/sReceiving objects:  53% (64313/121344), 36.93 MiB | 2.84 MiB/sReceiving objects:  54% (65526/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  55% (66740/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  55% (67488/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  56% (67953/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  57% (69167/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  58% (70380/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  59% (71593/121344), 38.75 MiB | 2.97 MiB/sReceiving objects:  60% (72807/121344), 40.81 MiB | 3.16 MiB/sReceiving objects:  61% (74020/121344), 40.81 MiB | 3.16 MiB/sReceiving objects:  62% (75234/121344), 40.81 MiB | 3.16 MiB/sReceiving objects:  62% (76163/121344), 42.72 MiB | 3.28 MiB/sReceiving objects:  62% (76254/121344), 46.39 MiB | 3.48 MiB/sReceiving objects:  63% (76447/121344), 48.23 MiB | 3.55 MiB/sReceiving objects:  64% (77661/121344), 48.23 MiB | 3.55 MiB/sReceiving objects:  65% (78874/121344), 48.23 MiB | 3.55 MiB/sReceiving objects:  66% (80088/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  66% (80902/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  67% (81301/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  68% (82514/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  69% (83728/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  70% (84941/121344), 50.05 MiB | 3.51 MiB/sReceiving objects:  71% (86155/121344), 52.37 MiB | 3.68 MiB/sReceiving objects:  72% (87368/121344), 52.37 MiB | 3.68 MiB/sReceiving objects:  73% (88582/121344), 52.37 MiB | 3.68 MiB/sReceiving objects:  73% (89367/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  74% (89795/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  75% (91008/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  76% (92222/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  77% (93435/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  78% (94649/121344), 54.21 MiB | 3.73 MiB/sReceiving objects:  79% (95862/121344), 56.05 MiB | 3.73 MiB/sReceiving objects:  80% (97076/121344), 56.05 MiB | 3.73 MiB/sReceiving objects:  81% (98289/121344), 56.05 MiB | 3.73 MiB/sReceiving objects:  82% (99503/121344), 56.05 MiB | 3.73 MiB/sReceiving objects:  83% (100716/121344), 56.05 MiB | 3.73 MiB/sReceiving objects:  84% (101929/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  84% (101972/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  85% (103143/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  86% (104356/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  87% (105570/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  88% (106783/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  89% (107997/121344), 57.88 MiB | 3.68 MiB/sReceiving objects:  90% (109210/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  91% (110424/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  92% (111637/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  93% (112850/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  94% (114064/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  95% (115277/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  96% (116491/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  97% (117704/121344), 59.71 MiB | 3.67 MiB/sReceiving objects:  97% (118390/121344), 61.54 MiB | 3.67 MiB/sReceiving objects:  98% (118918/121344), 61.54 MiB | 3.67 MiB/sReceiving objects:  99% (120131/121344), 61.54 MiB | 3.67 MiB/sremote: Total 121344 (delta 86366), reused 120962 (delta 86031), pack-reused 0[K
+Receiving objects: 100% (121344/121344), 61.54 MiB | 3.67 MiB/sReceiving objects: 100% (121344/121344), 62.71 MiB | 2.94 MiB/s, done.
+Resolving deltas:   0% (0/86366)Resolving deltas:   1% (927/86366)Resolving deltas:   2% (1863/86366)Resolving deltas:   3% (2602/86366)Resolving deltas:   4% (3477/86366)Resolving deltas:   5% (4403/86366)Resolving deltas:   6% (5361/86366)Resolving deltas:   7% (6050/86366)Resolving deltas:   8% (6911/86366)Resolving deltas:   9% (7775/86366)Resolving deltas:  10% (8765/86366)Resolving deltas:  11% (9550/86366)Resolving deltas:  12% (10376/86366)Resolving deltas:  13% (11235/86366)Resolving deltas:  14% (12096/86366)Resolving deltas:  15% (12975/86366)Resolving deltas:  16% (13942/86366)Resolving deltas:  17% (14692/86366)Resolving deltas:  18% (15626/86366)Resolving deltas:  19% (16412/86366)Resolving deltas:  20% (17424/86366)Resolving deltas:  21% (18355/86366)Resolving deltas:  22% (19033/86366)Resolving deltas:  23% (19908/86366)Resolving deltas:  24% (20919/86366)Resolving deltas:  25% (21624/86366)Resolving deltas:  26% (22460/86366)Resolving deltas:  27% (23456/86366)Resolving deltas:  28% (24231/86366)Resolving deltas:  29% (25112/86366)Resolving deltas:  30% (26006/86366)Resolving deltas:  31% (26796/86366)Resolving deltas:  32% (27727/86366)Resolving deltas:  33% (28507/86366)Resolving deltas:  34% (29602/86366)Resolving deltas:  35% (30231/86366)Resolving deltas:  36% (31178/86366)Resolving deltas:  37% (32012/86366)Resolving deltas:  38% (32837/86366)Resolving deltas:  39% (33694/86366)Resolving deltas:  40% (34549/86366)Resolving deltas:  41% (35421/86366)Resolving deltas:  42% (36289/86366)Resolving deltas:  43% (37142/86366)Resolving deltas:  44% (38073/86366)Resolving deltas:  45% (38889/86366)Resolving deltas:  46% (39770/86366)Resolving deltas:  47% (40697/86366)Resolving deltas:  48% (41510/86366)Resolving deltas:  49% (42326/86366)Resolving deltas:  50% (43213/86366)Resolving deltas:  51% (44052/86366)Resolving deltas:  52% (45084/86366)Resolving deltas:  58% (50872/86366)Resolving deltas:  59% (50998/86366)Resolving deltas:  60% (51837/86366)Resolving deltas:  61% (52699/86366)Resolving deltas:  62% (53554/86366)Resolving deltas:  63% (54418/86366)Resolving deltas:  64% (55287/86366)Resolving deltas:  65% (56142/86366)Resolving deltas:  66% (57011/86366)Resolving deltas:  66% (57414/86366)Resolving deltas:  67% (57920/86366)Resolving deltas:  68% (58797/86366)Resolving deltas:  69% (59641/86366)Resolving deltas:  70% (60486/86366)Resolving deltas:  71% (61344/86366)Resolving deltas:  72% (62193/86366)Resolving deltas:  73% (63056/86366)Resolving deltas:  74% (63911/86366)Resolving deltas:  75% (64777/86366)Resolving deltas:  76% (65667/86366)Resolving deltas:  77% (66559/86366)Resolving deltas:  78% (67409/86366)Resolving deltas:  79% (68570/86366)Resolving deltas:  80% (69120/86366)Resolving deltas:  81% (69982/86366)Resolving deltas:  82% (70830/86366)Resolving deltas:  82% (71437/86366)Resolving deltas:  83% (71713/86366)Resolving deltas:  84% (72592/86366)Resolving deltas:  85% (73432/86366)Resolving deltas:  86% (74315/86366)Resolving deltas:  87% (75183/86366)Resolving deltas:  88% (76095/86366)Resolving deltas:  89% (76956/86366)Resolving deltas:  90% (77770/86366)Resolving deltas:  91% (78609/86366)Resolving deltas:  92% (79472/86366)Resolving deltas:  93% (80340/86366)Resolving deltas:  94% (81191/86366)Resolving deltas:  95% (82055/86366)Resolving deltas:  96% (82937/86366)Resolving deltas:  97% (83779/86366)Resolving deltas:  98% (84704/86366)Resolving deltas:  99% (85520/86366)Resolving deltas: 100% (86366/86366)Resolving deltas: 100% (86366/86366), done.
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git chec[K[K[K[K[K[K[K[Kcd mylibgit
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ cd ../my_project
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth added:      index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mindex_BACKUP_4058.html[m
+	[31mindex_BACKUP_4126.html[m
+	[31mindex_BACKUP_4192.html[m
+	[31mindex_BACKUP_4270.html[m
+	[31mindex_BASE_4058.html[m
+	[31mindex_BASE_4126.html[m
+	[31mindex_BASE_4192.html[m
+	[31mindex_BASE_4270.html[m
+	[31mindex_LOCAL_4058.html[m
+	[31mindex_LOCAL_4126.html[m
+	[31mindex_LOCAL_4192.html[m
+	[31mindex_LOCAL_4270.html[m
+	[31mindex_REMOTE_4058.html[m
+	[31mindex_REMOTE_4126.html[m
+	[31mindex_REMOTE_4192.html[m
+	[31mindex_REMOTE_4270.html[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git rm .
+fatal: not removing '.' recursively without -r
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git rm .-.r. .
+rm 'README'
+rm 'README.md'
+rm 'index.html'
+rm 'index.html'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mdeleted:    README[m
+	[32mdeleted:    README.md[m
+	[32mdeleted:    index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mindex_BACKUP_4058.html[m
+	[31mindex_BACKUP_4126.html[m
+	[31mindex_BACKUP_4192.html[m
+	[31mindex_BACKUP_4270.html[m
+	[31mindex_BASE_4058.html[m
+	[31mindex_BASE_4126.html[m
+	[31mindex_BASE_4192.html[m
+	[31mindex_BASE_4270.html[m
+	[31mindex_LOCAL_4058.html[m
+	[31mindex_LOCAL_4126.html[m
+	[31mindex_LOCAL_4192.html[m
+	[31mindex_LOCAL_4270.html[m
+	[31mindex_REMOTE_4058.html[m
+	[31mindex_REMOTE_4126.html[m
+	[31mindex_REMOTE_4192.html[m
+	[31mindex_REMOTE_4270.html[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mdeleted:    README[m
+	[32mdeleted:    README.md[m
+	[32mnew file:   index_BACKUP_4058.html[m
+	[32mnew file:   index_BACKUP_4126.html[m
+	[32mnew file:   index_BACKUP_4192.html[m
+	[32mnew file:   index_BACKUP_4270.html[m
+	[32mnew file:   index_BASE_4058.html[m
+	[32mnew file:   index_BASE_4126.html[m
+	[32mnew file:   index_BASE_4192.html[m
+	[32mnew file:   index_BASE_4270.html[m
+	[32mrenamed:    index.html -> index_LOCAL_4058.html[m
+	[32mnew file:   index_LOCAL_4126.html[m
+	[32mnew file:   index_LOCAL_4192.html[m
+	[32mnew file:   index_LOCAL_4270.html[m
+	[32mnew file:   index_REMOTE_4058.html[m
+	[32mnew file:   index_REMOTE_4126.html[m
+	[32mnew file:   index_REMOTE_4192.html[m
+	[32mnew file:   index_REMOTE_4270.html[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -""m""[Cr"e"m"o"v"i"n"g" "e"v"e"r"y"t"h"i"n"g"
+[main c56299c] removing everything
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  10% (1/10)Writing objects:  20% (2/10)Writing objects:  30% (3/10)Writing objects:  40% (4/10)Writing objects:  50% (5/10)Writing objects:  60% (6/10)Writing objects:  70% (7/10)Writing objects:  80% (8/10)Writing objects:  90% (9/10)Writing objects: 100% (10/10)Writing objects: 100% (10/10), 1.08 KiB | 369.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To github.com:ankushtiger/my_project.git
+   f29df6d..c56299c  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo 'My Project' > README
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git af[Kdd README
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git statusadd README[4Pstatusecho 'My Project' > README> README
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo 'My Project' >> README[17Pgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status -s
+[32mA[m[31mM[m README
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Everything up-to-date
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push[K[K[K[Kcommit -m""a"d"d"i"n"g" "r"e"a"d"m"e"
+[main a10d1d5] adding readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -m"adding readme"push[K
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:ankushtiger/my_project.git
+   c56299c..a10d1d5  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+README                  index_BACKUP_4192.html  index_BASE_4126.html  index_LOCAL_4058.html  index_LOCAL_4270.html   index_REMOTE_4192.html
+index_BACKUP_4058.html  index_BACKUP_4270.html  index_BASE_4192.html  index_LOCAL_4126.html  index_REMOTE_4058.html  index_REMOTE_4270.html
+index_BACKUP_4126.html  index_BASE_4058.html    index_BASE_4270.html  index_LOCAL_4192.html  index_REMOTE_4126.html
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git e[Krm -r *
+error: the following file has local modifications:
+    README
+(use --cached to keep the file, or -f to force removal)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git pull
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Already up to date.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+README                  index_BACKUP_4192.html  index_BASE_4126.html  index_LOCAL_4058.html  index_LOCAL_4270.html   index_REMOTE_4192.html
+index_BACKUP_4058.html  index_BACKUP_4270.html  index_BASE_4192.html  index_LOCAL_4126.html  index_REMOTE_4058.html  index_REMOTE_4270.html
+index_BACKUP_4126.html  index_BASE_4058.html    index_BASE_4270.html  index_LOCAL_4192.html  index_REMOTE_4126.html
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ rm .
+rm: cannot remove '.': Is a directory
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git del[3Prm .[2Plsgit pullstatusrm -r *ls[Kgit rm -r *
+error: the following file has local modifications:
+    README
+(use --cached to keep the file, or -f to force removal)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ gir[Kt status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -m""a"d"d"i"n"g" "r"e"a"d"m"e"
+[main 2478d04] adding readme
+ 1 file changed, 1 insertion(+)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git py[Kush
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:ankushtiger/my_project.git
+   a10d1d5..2478d04  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status[2Ppushcommit -m"adding readme"status[K[1Padd .rm -r *
+rm 'README'
+rm 'index_BACKUP_4058.html'
+rm 'index_BACKUP_4126.html'
+rm 'index_BACKUP_4192.html'
+rm 'index_BACKUP_4270.html'
+rm 'index_BASE_4058.html'
+rm 'index_BASE_4126.html'
+rm 'index_BASE_4192.html'
+rm 'index_BASE_4270.html'
+rm 'index_LOCAL_4058.html'
+rm 'index_LOCAL_4126.html'
+rm 'index_LOCAL_4192.html'
+rm 'index_LOCAL_4270.html'
+rm 'index_REMOTE_4058.html'
+rm 'index_REMOTE_4126.html'
+rm 'index_REMOTE_4192.html'
+rm 'index_REMOTE_4270.html'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .[K[K[K[K[Kstatus -s
+[32mD[m  README
+[32mD[m  index_BACKUP_4058.html
+[32mD[m  index_BACKUP_4126.html
+[32mD[m  index_BACKUP_4192.html
+[32mD[m  index_BACKUP_4270.html
+[32mD[m  index_BASE_4058.html
+[32mD[m  index_BASE_4126.html
+[32mD[m  index_BASE_4192.html
+[32mD[m  index_BASE_4270.html
+[32mD[m  index_LOCAL_4058.html
+[32mD[m  index_LOCAL_4126.html
+[32mD[m  index_LOCAL_4192.html
+[32mD[m  index_LOCAL_4270.html
+[32mD[m  index_REMOTE_4058.html
+[32mD[m  index_REMOTE_4126.html
+[32mD[m  index_REMOTE_4192.html
+[32mD[m  index_REMOTE_4270.html
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ fir [K[K[K[Kgit add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    README[m
+	[32mdeleted:    index_BACKUP_4058.html[m
+	[32mdeleted:    index_BACKUP_4126.html[m
+	[32mdeleted:    index_BACKUP_4192.html[m
+	[32mdeleted:    index_BACKUP_4270.html[m
+	[32mdeleted:    index_BASE_4058.html[m
+	[32mdeleted:    index_BASE_4126.html[m
+	[32mdeleted:    index_BASE_4192.html[m
+	[32mdeleted:    index_BASE_4270.html[m
+	[32mdeleted:    index_LOCAL_4058.html[m
+	[32mdeleted:    index_LOCAL_4126.html[m
+	[32mdeleted:    index_LOCAL_4192.html[m
+	[32mdeleted:    index_LOCAL_4270.html[m
+	[32mdeleted:    index_REMOTE_4058.html[m
+	[32mdeleted:    index_REMOTE_4126.html[m
+	[32mdeleted:    index_REMOTE_4192.html[m
+	[32mdeleted:    index_REMOTE_4270.html[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -m""d"e"l"e"t"i"n"g" "e"v"e"r"y"t"h"i"n"g"
+[main fd690c8] deleting everything
+ 17 files changed, 46 deletions(-)
+ delete mode 100644 README
+ delete mode 100644 index_BACKUP_4058.html
+ delete mode 100644 index_BACKUP_4126.html
+ delete mode 100644 index_BACKUP_4192.html
+ delete mode 100644 index_BACKUP_4270.html
+ delete mode 100644 index_BASE_4058.html
+ delete mode 100644 index_BASE_4126.html
+ delete mode 100644 index_BASE_4192.html
+ delete mode 100644 index_BASE_4270.html
+ delete mode 100644 index_LOCAL_4058.html
+ delete mode 100644 index_LOCAL_4126.html
+ delete mode 100644 index_LOCAL_4192.html
+ delete mode 100644 index_LOCAL_4270.html
+ delete mode 100644 index_REMOTE_4058.html
+ delete mode 100644 index_REMOTE_4126.html
+ delete mode 100644 index_REMOTE_4192.html
+ delete mode 100644 index_REMOTE_4270.html
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1/1)Compressing objects: 100% (1/1), done.
+Writing objects:  50% (1/2)Writing objects: 100% (2/2)Writing objects: 100% (2/2), 208 bytes | 208.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To github.com:ankushtiger/my_project.git
+   2478d04..fd690c8  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo ""m"y"_"p"r"o"j"e"c"t" "1"[C > readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mreadme.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git statusecho "my_project 1" > readme.txt[1P[1@2[C[C[C> readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mreadme.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   readme.txt[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status[1Padd .statusecho "my_project 2" >> readme.txt[1P[1@3
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo "my_project 3" >> readme.txtgit status[K
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   readme.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   readme.txt[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git diff
+[?1h=[1mdiff --git a/readme.txt b/readme.txt[m[m
+[1mindex f2dcf08..86f5690 100644[m[m
+[1m--- a/readme.txt[m[m
+[1m+++ b/readme.txt[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ my_project 1[m[m
+ my_project 2[m[m
+[32m+[m[32mmy_project 3[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git diff --staged
+[?1h=[1mdiff --git a/readme.txt b/readme.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..f2dcf08[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/readme.txt[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mmy_project 1[m[m
+[32m+[m[32mmy_project 2[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git diff --cached
+[?1h=[1mdiff --git a/readme.txt b/readme.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..f2dcf08[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/readme.txt[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mmy_project 1[m[m
+[32m+[m[32mmy_project 2[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git diff --cachedstaged[Kstatus[2Pdiff --stagedcached[Kgit commit -m""a"d"d"i"n"g" "r"e"a"d"_"m"e"[1Pme"
+[main 0d38714] adding readme
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   readme.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .statuscommit -m"adding readme"
+[main f121742] adding readme
+ 1 file changed, 1 insertion(+)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -m"adding readme"add .[Kstatus
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cd ..
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git clone https://github.com/schacon/simplegit-progit sp
+Cloning into 'sp'...
+remote: Enumerating objects: 13, done.[K
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13[K
+Unpacking objects:   7% (1/13)Unpacking objects:  15% (2/13)Unpacking objects:  23% (3/13)Unpacking objects:  30% (4/13)Unpacking objects:  38% (5/13)Unpacking objects:  46% (6/13)Unpacking objects:  53% (7/13)Unpacking objects:  61% (8/13)Unpacking objects:  69% (9/13)Unpacking objects:  76% (10/13)Unpacking objects:  84% (11/13)Unpacking objects:  92% (12/13)Unpacking objects: 100% (13/13)Unpacking objects: 100% (13/13), 1.55 KiB | 158.00 KiB/s, done.
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git checkout sp
+fatal: not a git repository (or any of the parent directories): .git
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ cd sp
+(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git staustus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log -p -2
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+[1mindex a0a60ae..47c6340 100644[m[m
+[1m--- a/lib/simplegit.rb[m[m
+[1m+++ b/lib/simplegit.rb[m[m
+[36m@@ -18,8 +18,3 @@[m [mclass SimpleGit[m[m
+     end[m[m
+   [m[m
+ end[m[m
+[31m-[m[m
+[31m-if $0 == __FILE__[m[m
+[31m-  git = SimpleGit.new[m[m
+[31m-  puts git.show[m[m
+[31m-end[m[m
+\ No newline at end of file[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --stat
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+ Rakefile | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+ lib/simplegit.rb | 5 [31m-----[m[m
+ 1 file changed, 5 deletions(-)[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[m
+ README           |  6 [32m++++++[m[m
+ Rakefile         | 23 [32m+++++++++++++++++++++++[m[m
+ lib/simplegit.rb | 25 [32m+++++++++++++++++++++++++[m[m
+ 3 files changed, 54 insertions(+)[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log -p
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+[1mindex a0a60ae..47c6340 100644[m[m
+[1m--- a/lib/simplegit.rb[m[m
+[1m+++ b/lib/simplegit.rb[m[m
+[36m@@ -18,8 +18,3 @@[m [mclass SimpleGit[m[m
+     end[m[m
+   [m[m
+ end[m[m
+[31m-[m[m
+[31m-if $0 == __FILE__[m[m
+[31m-  git = SimpleGit.new[m[m
+[31m-  puts git.show[m[m
+[31m-end[m[m
+\ No newline at end of file[m[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+:[K[K:[K[K:[K[K-[Klog file: [K[K[7mNo log file  (press RETURN)[27m[43;1H[K[K:[K[K:[K11[KAuthor: Scott Chacon <schacon@gmail.com>[m
+:[K[K:[K11[KDate:   Sat Mar 15 10:31:28 2008 -0700[m
+:[K[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K:[K[K [KESCESC[K^J^J[K:[K[K [KESCESC[K^J^J[K:[K[K [KESCESC[KESCESC[K[m
+:[K[K:[K11[K    first commit[m
+:[K[K:[K22[K[m
+[1mdiff --git a/README b/README[m[m
+:[K[K:[K33[K[1mnew file mode 100644[m[m
+[1mindex 0000000..a906cb2[m[m
+[1m--- /dev/null[m[m
+:[K[K[1m+++ b/README[m[m
+:[K[K[36m@@ -0,0 +1,6 @@[m[m
+:[K[K[32m+[m[32mSimpleGit Ruby Library[m[m
+:[K[K[32m+[m[32m======================[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mThis library calls git commands and returns the output.[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mAuthor : Scott Chacon[m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[1mdiff --git a/Rakefile b/Rakefile[m[m
+:[K[K[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..a874b73[m[m
+:[K[K[1m--- /dev/null[m[m
+:[K[K[1m+++ b/Rakefile[m[m
+:[K[K[36m@@ -0,0 +1,23 @@[m[m
+:[K[K[32m+[m[32mrequire 'rubygems'[m[m
+:[K[K[32m+[m[32mGem::manage_gems[m[m
+:[K[K[32m+[m[32mrequire 'rake/gempackagetask'[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mspec = Gem::Specification.new do |s|[m[m
+:[K[K[32m+[m[32m    s.platform  =   Gem::Platform::RUBY[m[m
+:[K[K[32m+[m[32m    s.name      =   "simplegit"[m[m
+:[K[K[32m+[m[32m    s.version   =   "0.1.0"[m[m
+:[K[K[32m+[m[32m    s.author    =   "Scott Chacon"[m[m
+:[K[K[32m+[m[32m    s.email     =   "schacon@gmail.com"[m[m
+:[K[K[32m+[m[32m    s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+:[K[K[32m+[m[32m    s.files     =   FileList['lib/**/*'].to_a[m[m
+:[K[K[32m+[m[32m    s.require_path  =   "lib"[m[m
+:[K[K[32m+[m[32mend[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mRake::GemPackageTask.new(spec) do |pkg|[m[m
+:[K[K[32m+[m[32m    pkg.need_tar = true[m[m
+:[K[K[32m+[m[32mend[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mtask :default => "pkg/#{spec.name}-#{spec.version}.gem" do[m[m
+:[K[K[32m+[m[32m    puts "generated latest version"[m[m
+:[K[K[32m+[m[32mend[m[m
+:[K[K[32m+[m[m
+:[K[K[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+:[K[K[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..a0a60ae[m[m
+:[K[K[1m--- /dev/null[m[m
+:[K[K[1m+++ b/lib/simplegit.rb[m[m
+:[K[K[36m@@ -0,0 +1,25 @@[m[m
+:[K[K[32m+[m[32m# a super simple example class to use git in ruby[m[m
+:[K[K[32m+[m[32mclass SimpleGit[m[m
+:[K[K[32m+[m[41m  [m[m
+:[K[K[32m+[m[32m  def initialize(git_dir = '.')[m[m
+:[K[K[32m+[m[32m    @git_dir = File.expand_path(git_dir)[m[m
+:[K[K[32m+[m[32m  end[m[m
+:[K[K[32m+[m[41m  [m[m
+:[K[K[32m+[m[32m  def show(treeish = 'master')[m[m
+:[K[K[32m+[m[32m    command("git show #{treeish}")[m[m
+:[K[K[32m+[m[32m  end[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32m  private[m[m
+:[K[K[32m+[m[41m  [m[m
+:[K[K[32m+[m[32m    def command(git_cmd)[m[m
+:[K[K[32m+[m[32m      Dir.chdir(@git_dir) do[m[m
+:[K[K[32m+[m[32m        return `#{git_cmd} 2>&1`.chomp[m[m
+:[K[K[32m+[m[32m      end[m[m
+:[K[K[32m+[m[32m    end[m[m
+:[K[K[32m+[m[41m  [m[m
+:[K[K[32m+[m[32mend[m[m
+:[K[K[32m+[m[m
+:[K[K[32m+[m[32mif $0 == __FILE__[m[m
+:[K[K[32m+[m[32m  git = SimpleGit.new[m[m
+:[K[K[32m+[m[32m  puts git.show[m[m
+:[K[K[32m+[m[32mend[m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[?1l>
+[1]+  Stopped                 git log -p
+(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log -p -1
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --pretty=oneline
+[?1h=[33mca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m changed the verison number[m
+[33m085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m removed unnecessary test code[m
+[33ma11bef06a3f659402fe7563abf99ad00de2209e6[m first commit[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --pretty=format:"%h %s" --graph
+[?1h=* ca82a6d changed the verison number[m
+* 085bb3b removed unnecessary test code[m
+* a11bef0 first commit[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --since=2.weeks
+[?1h=[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --since=2.weeks[K[K[K[K[Kyears
+[?1h=[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --since=2.years[1P.years6.years
+[?1h=[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log --since=6.years16.years
+[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ git log -S function_name
+[?1h=[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ CD ../MY_PROJECT
+CD: command not found
+(base) ]0;ankushtiger@TIGER02906: ~/sp[01;32mankushtiger@TIGER02906[00m:[01;34m~/sp[00m$ cd ../my_project
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit --amed[Knd
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;78H(B[0;7m[ Reading... ](B[m[41;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                /home/ankushtiger/my_project/.git/COMMIT_EDITMSG                                                          [1;167H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[42;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[43;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[41d[2d[39;49m(B[madding readme[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Thu Apr 6 09:24:12 2023 +0530[8d#[9d# On branch main[10d# Your branch is ahead of 'origin/main' by 2 commits.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       modified:   readme.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[main e6cf625] adding readme
+ Date: Thu Apr 6 09:24:12 2023 +0530
+ 1 file changed, 1 insertion(+)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit --amend[8Pstatus
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git reset HEAD 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git reset HEAD readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git reset HEAD readme.txt[K[5Pstatus
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout --readme.txt
+error: unknown option `readme.txt'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo "new line">>readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   readme.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   readme.txt[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status[1Padd .statusecho "new line">>readme.txt[17Pgit statuscheckout --readme.txtls[Kgit statusreset HEAD readme.txt[K[5Pstatuscommit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;78H(B[0;7m[ Reading... ](B[m[41;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                /home/ankushtiger/my_project/.git/COMMIT_EDITMSG                                                          [1;167H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[42;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[43;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[41d[2d[39;49m(B[madding readme[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Thu Apr 6 09:24:12 2023 +0530[8d#[9d# On branch main[10d# Your branch is ahead of 'origin/main' by 2 commits.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       modified:   readme.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[41;76H  (B[0;7m[ Writing... ](B[m[K[1;167H[41;76H(B[0;7m[ Wrote 14 lines ](B[m[2d[?12l[?25h[?25l[41;76H  (B[0;7m[ Writing... ](B[m[K[1;167H[41;76H(B[0;7m[ Wrote 14 lines ](B[m[2d[?12l[?25h[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[K[main d4f6081] adding readme
+ Date: Thu Apr 6 09:24:12 2023 +0530
+ 1 file changed, 2 insertions(+)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit --amend[8Pstatus
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status'[K
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cat readme.txt
+my_project 1
+my_project 2
+my_project 3
+new line
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git restore readme.txt
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git restore readme.txt[8Pcat[C[C[C[C[C[C[C[C[C[C[C
+my_project 1
+my_project 2
+my_project 3
+new line
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cat readme.txt[8@git restore[C[C[C[C[C[C[C[C[C[C[C[8Pcat[C[C[C[C[C[C[C[C[C[C[C[4Pgit status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cd ..
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git clone https://github.com/schacon/ticgit
+Cloning into 'ticgit'...
+remote: Enumerating objects: 1857, done.[K
+Receiving objects:   0% (1/1857)Receiving objects:   1% (19/1857)Receiving objects:   2% (38/1857)Receiving objects:   3% (56/1857)Receiving objects:   4% (75/1857)Receiving objects:   5% (93/1857)Receiving objects:   6% (112/1857)Receiving objects:   7% (130/1857)Receiving objects:   8% (149/1857)Receiving objects:   9% (168/1857)Receiving objects:  10% (186/1857)Receiving objects:  11% (205/1857)Receiving objects:  12% (223/1857)Receiving objects:  13% (242/1857)Receiving objects:  14% (260/1857)Receiving objects:  15% (279/1857)Receiving objects:  16% (298/1857)Receiving objects:  17% (316/1857)Receiving objects:  18% (335/1857)Receiving objects:  19% (353/1857)Receiving objects:  20% (372/1857)Receiving objects:  21% (390/1857)Receiving objects:  22% (409/1857)Receiving objects:  23% (428/1857)Receiving objects:  24% (446/1857)Receiving objects:  25% (465/1857)Receiving objects:  26% (483/1857)Receiving objects:  27% (502/1857)Receiving objects:  28% (520/1857)Receiving objects:  29% (539/1857)Receiving objects:  30% (558/1857)Receiving objects:  31% (576/1857)Receiving objects:  32% (595/1857)Receiving objects:  33% (613/1857)Receiving objects:  34% (632/1857)Receiving objects:  35% (650/1857)Receiving objects:  36% (669/1857)Receiving objects:  37% (688/1857)Receiving objects:  38% (706/1857)Receiving objects:  39% (725/1857)Receiving objects:  40% (743/1857)Receiving objects:  41% (762/1857)Receiving objects:  42% (780/1857)Receiving objects:  43% (799/1857)Receiving objects:  44% (818/1857)Receiving objects:  45% (836/1857)Receiving objects:  46% (855/1857)Receiving objects:  47% (873/1857)Receiving objects:  48% (892/1857)Receiving objects:  49% (910/1857)Receiving objects:  50% (929/1857)Receiving objects:  51% (948/1857)Receiving objects:  52% (966/1857)Receiving objects:  53% (985/1857)Receiving objects:  54% (1003/1857)Receiving objects:  55% (1022/1857)Receiving objects:  56% (1040/1857)Receiving objects:  57% (1059/1857)Receiving objects:  58% (1078/1857)Receiving objects:  59% (1096/1857)Receiving objects:  60% (1115/1857)Receiving objects:  61% (1133/1857)Receiving objects:  62% (1152/1857)Receiving objects:  63% (1170/1857)Receiving objects:  64% (1189/1857)Receiving objects:  65% (1208/1857)Receiving objects:  66% (1226/1857)Receiving objects:  67% (1245/1857)Receiving objects:  68% (1263/1857)Receiving objects:  69% (1282/1857)Receiving objects:  70% (1300/1857)Receiving objects:  71% (1319/1857)Receiving objects:  72% (1338/1857)remote: Total 1857 (delta 0), reused 0 (delta 0), pack-reused 1857[K
+Receiving objects:  73% (1356/1857)Receiving objects:  74% (1375/1857)Receiving objects:  75% (1393/1857)Receiving objects:  76% (1412/1857)Receiving objects:  77% (1430/1857)Receiving objects:  78% (1449/1857)Receiving objects:  79% (1468/1857)Receiving objects:  80% (1486/1857)Receiving objects:  81% (1505/1857)Receiving objects:  82% (1523/1857)Receiving objects:  83% (1542/1857)Receiving objects:  84% (1560/1857)Receiving objects:  85% (1579/1857)Receiving objects:  86% (1598/1857)Receiving objects:  87% (1616/1857)Receiving objects:  88% (1635/1857)Receiving objects:  89% (1653/1857)Receiving objects:  90% (1672/1857)Receiving objects:  91% (1690/1857)Receiving objects:  92% (1709/1857)Receiving objects:  93% (1728/1857)Receiving objects:  94% (1746/1857)Receiving objects:  95% (1765/1857)Receiving objects:  96% (1783/1857)Receiving objects:  97% (1802/1857)Receiving objects:  98% (1820/1857)Receiving objects:  99% (1839/1857)Receiving objects: 100% (1857/1857)Receiving objects: 100% (1857/1857), 334.06 KiB | 1.17 MiB/s, done.
+Resolving deltas:   0% (0/837)Resolving deltas:   1% (9/837)Resolving deltas:   2% (23/837)Resolving deltas:   3% (27/837)Resolving deltas:   4% (34/837)Resolving deltas:   5% (42/837)Resolving deltas:  13% (114/837)Resolving deltas:  14% (118/837)Resolving deltas:  15% (127/837)Resolving deltas:  16% (137/837)Resolving deltas:  17% (144/837)Resolving deltas:  20% (171/837)Resolving deltas:  25% (217/837)Resolving deltas:  26% (219/837)Resolving deltas:  27% (230/837)Resolving deltas:  29% (246/837)Resolving deltas:  30% (252/837)Resolving deltas:  31% (261/837)Resolving deltas:  32% (270/837)Resolving deltas:  33% (277/837)Resolving deltas:  34% (289/837)Resolving deltas:  35% (293/837)Resolving deltas:  37% (311/837)Resolving deltas:  38% (319/837)Resolving deltas:  39% (328/837)Resolving deltas:  40% (342/837)Resolving deltas:  41% (348/837)Resolving deltas:  43% (362/837)Resolving deltas:  44% (370/837)Resolving deltas:  45% (384/837)Resolving deltas:  47% (401/837)Resolving deltas:  48% (407/837)Resolving deltas:  49% (411/837)Resolving deltas:  51% (435/837)Resolving deltas:  52% (436/837)Resolving deltas:  53% (445/837)Resolving deltas:  55% (463/837)Resolving deltas:  56% (471/837)Resolving deltas:  57% (482/837)Resolving deltas:  58% (486/837)Resolving deltas:  59% (495/837)Resolving deltas:  62% (524/837)Resolving deltas:  63% (528/837)Resolving deltas:  64% (538/837)Resolving deltas:  65% (545/837)Resolving deltas:  67% (561/837)Resolving deltas:  68% (571/837)Resolving deltas:  69% (580/837)Resolving deltas:  70% (587/837)Resolving deltas:  73% (617/837)Resolving deltas:  74% (621/837)Resolving deltas:  78% (656/837)Resolving deltas:  79% (662/837)Resolving deltas:  80% (672/837)Resolving deltas:  81% (683/837)Resolving deltas:  82% (693/837)Resolving deltas:  83% (698/837)Resolving deltas:  84% (705/837)Resolving deltas:  87% (733/837)Resolving deltas:  88% (738/837)Resolving deltas:  89% (745/837)Resolving deltas:  90% (754/837)Resolving deltas:  92% (772/837)Resolving deltas: 100% (837/837)Resolving deltas: 100% (837/837), done.
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ cd ticgit
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote
+origin
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ cd grit
+bash: cd: grit: No such file or directory
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote add pb https://github.com/paulboone/ticgit
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+pb	https://github.com/paulboone/ticgit (fetch)
+pb	https://github.com/paulboone/ticgit (push)
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git fetch pb
+remote: Enumerating objects: 43, done.[K
+remote: Counting objects:   4% (1/22)[Kremote: Counting objects:   9% (2/22)[Kremote: Counting objects:  13% (3/22)[Kremote: Counting objects:  18% (4/22)[Kremote: Counting objects:  22% (5/22)[Kremote: Counting objects:  27% (6/22)[Kremote: Counting objects:  31% (7/22)[Kremote: Counting objects:  36% (8/22)[Kremote: Counting objects:  40% (9/22)[Kremote: Counting objects:  45% (10/22)[Kremote: Counting objects:  50% (11/22)[Kremote: Counting objects:  54% (12/22)[Kremote: Counting objects:  59% (13/22)[Kremote: Counting objects:  63% (14/22)[Kremote: Counting objects:  68% (15/22)[Kremote: Counting objects:  72% (16/22)[Kremote: Counting objects:  77% (17/22)[Kremote: Counting objects:  81% (18/22)[Kremote: Counting objects:  86% (19/22)[Kremote: Counting objects:  90% (20/22)[Kremote: Counting objects:  95% (21/22)[Kremote: Counting objects: 100% (22/22)[Kremote: Counting objects: 100% (22/22), done.[K
+Unpacking objects:   2% (1/43)Unpacking objects:   4% (2/43)Unpacking objects:   6% (3/43)Unpacking objects:   9% (4/43)Unpacking objects:  11% (5/43)Unpacking objects:  13% (6/43)Unpacking objects:  16% (7/43)Unpacking objects:  18% (8/43)Unpacking objects:  20% (9/43)Unpacking objects:  23% (10/43)Unpacking objects:  25% (11/43)Unpacking objects:  27% (12/43)Unpacking objects:  30% (13/43)Unpacking objects:  32% (14/43)Unpacking objects:  34% (15/43)Unpacking objects:  37% (16/43)Unpacking objects:  39% (17/43)Unpacking objects:  41% (18/43)Unpacking objects:  44% (19/43)Unpacking objects:  46% (20/43)Unpacking objects:  48% (21/43)Unpacking objects:  51% (22/43)Unpacking objects:  53% (23/43)Unpacking objects:  55% (24/43)Unpacking objects:  58% (25/43)Unpacking objects:  60% (26/43)Unpacking objects:  62% (27/43)Unpacking objects:  65% (28/43)Unpacking objects:  67% (29/43)Unpacking objects:  69% (30/43)Unpacking objects:  72% (31/43)Unpacking objects:  74% (32/43)Unpacking objects:  76% (33/43)Unpacking objects:  79% (34/43)Unpacking objects:  81% (35/43)Unpacking objects:  83% (36/43)Unpacking objects:  86% (37/43)Unpacking objects:  88% (38/43)Unpacking objects:  90% (39/43)Unpacking objects:  93% (40/43)Unpacking objects:  95% (41/43)Unpacking objects:  97% (42/43)Unpacking objects: 100% (43/43)Unpacking objects: 100% (43/43), 5.99 KiB | 245.00 KiB/s, done.
+remote: Total 43 (delta 22), reused 22 (delta 22), pack-reused 21[K
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/schacon/ticgit
+  Push  URL: https://github.com/schacon/ticgit
+  HEAD branch: master
+  Remote branches:
+    master tracked
+    ticgit tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote
+origin
+pb
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote remove paul
+fatal: No such remote: 'paul'
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote remove paul[K
+origin
+pb
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote remove paul[K[K[Kb
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git remote remove pb[K
+origin
+(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ git tag
+[?1h=[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/ticgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/ticgit[00m$ cd ..
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ ls
+Miniconda3-latest-Linux-x86_64.sh  [0m[01;34mminiconda3[0m        my_git_session  my_unix_session         [01;34mmylibgit[0m    [01;34mshell-lesson-data[0m      [01;34msp[0m      [01;34mticgit[0m
+[01;34mgit[0m                                my_conda_session  [01;34mmy_project[0m      my_unix_session_shell1  quotes.txt  [01;31mshell-lesson-data.zip[0m  [01;34mthesis[0m
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ cd mylibgit
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ cd mylibgitls[Kcd ..git tag
+[?1h=v0.1.0[m
+v0.10.0[m
+v0.11.0[m
+v0.12.0[m
+v0.13.0[m
+v0.14.0[m
+v0.15.0[m
+v0.16.0[m
+v0.17.0[m
+v0.18.0[m
+v0.19.0[m
+v0.2.0[m
+v0.20.0[m
+v0.21.0[m
+v0.21.0-rc1[m
+v0.21.0-rc2[m
+v0.21.1[m
+v0.21.2[m
+v0.21.3[m
+v0.21.4[m
+v0.21.5[m
+v0.22.0[m
+v0.22.0-rc1[m
+v0.22.0-rc2[m
+v0.22.1[m
+v0.22.2[m
+v0.22.3[m
+v0.23.0[m
+v0.23.0-rc1[m
+v0.23.0-rc2[m
+v0.23.1[m
+v0.23.2[m
+v0.23.3[m
+v0.23.4[m
+v0.24.0[m
+v0.24.0-rc1[m
+v0.24.1[m
+v0.24.2[m
+v0.24.3[m
+v0.24.4[m
+v0.24.5[m
+v0.24.6[m
+:[K[Kv0.25.0[m
+:[K[Kv0.25.0-rc1[m
+:[K[K [KESCESC[KESCESC[K [KESCESC[K^J^J[K:[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K:[K[Kv0.25.0-rc2[m
+:[K[Kv0.25.1[m
+:[K[Kv0.26.0[m
+:[K[Kv0.26.0-rc1[m
+:[K[Kv0.26.0-rc2[m
+:[K[Kv0.26.1[m
+:[K[Kv0.26.2[m
+:[K[Kv0.26.3[m
+:[K[Kv0.26.4[m
+:[K[Kv0.26.5[m
+:[K[Kv0.26.6[m
+:[K[Kv0.26.7[m
+:[K[Kv0.26.8[m
+:[K[Kv0.27.0[m
+:[K[Kv0.27.0-rc1[m
+:[K[Kv0.27.0-rc2[m
+:[K[Kv0.27.0-rc3[m
+:[K[Kv0.27.1[m
+:[K[Kv0.27.10[m
+:[K[Kv0.27.2[m
+:[K[Kv0.27.3[m
+:[K[Kv0.27.4[m
+:[K[Kv0.27.5[m
+:[K[Kv0.27.6[m
+:[K[Kv0.27.7[m
+:[K[Kv0.27.8[m
+:[K[Kv0.27.9[m
+:[K[Kv0.28.0[m
+:[K[Kv0.28.0-rc1[m
+:[K[Kv0.28.1[m
+:[K[Kv0.28.2[m
+:[K[Kv0.28.3[m
+:[K[Kv0.28.4[m
+:[K[Kv0.28.5[m
+:[K[Kv0.3.0[m
+:[K[Kv0.8.0[m
+:[K[Kv0.99.0[m
+:[K[Kv1.0.0[m
+:[K[Kv1.0.1[m
+:[K[Kv1.1.0[m
+:[K[Kv1.1.1[m
+:[K[Kv1.2.0[m
+:[K[Kv1.3.0[m
+:[K[Kv1.3.1[m
+:[K[Kv1.3.2[m
+:[K[Kv1.4.0[m
+:[K[Kv1.4.1[m
+:[K[Kv1.4.2[m
+:[K[Kv1.4.3[m
+:[K[Kv1.4.4[m
+:[K[Kv1.4.5[m
+:[K[Kv1.4.6[m
+:[K[Kv1.5.0[m
+:[K[Kv1.5.1[m
+:[K[Kv1.5.2[m
+:[K[Kv1.6.1[m
+:[K[Kv1.6.2[m
+:[K[Kv1.6.3[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [K^X^X[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K [K^X^X[K^X^X[Kgoto mark: [K[K[7mInvalid mark letter  (press RETURN)[27m[43;1H[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K [KESCESC[KESCESC[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [K^X^X[K^J^J[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>
+[2]+  Stopped                 git tag
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ git tag -l "v1.8.5*"[1P.5*"4.5*"
+[?1h=v1.4.5[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$  git show v1.4
+fatal: ambiguous argument 'v1.4': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ git tag -l "v1.4.5*"[K git show v1.4.1
+[?1h=[33mcommit fdd15bcfca6b2ec4b7ecad1aa11a396cb15bd064[m[33m ([m[1;33mtag: v1.4.1[m[33m)[m[m
+Merge: 1d5b9bd86 ab791c837[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Fri Feb 18 09:29:55 2022 -0500[m
+[m
+    Merge pull request #6224 from libgit2/ethomson/v1.4.1[m
+    [m
+    v1.4.1[m
+[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/mylibgit[01;32mankushtiger@TIGER02906[00m:[01;34m~/mylibgit[00m$ GIT [K[K[K[Kcd ../my_project
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 529 bytes | 132.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To github.com:ankushtiger/my_project.git
+   fd690c8..d4f6081  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout testing
+Switched to branch 'testing'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ vim test.rb
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;43r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[43;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".test.rb.swp"
+[10Cowned by: ankushtiger   dated: Thu Apr 06 10:15:21 2023
+[9Cfile name: ~ankushtiger/my_project/test.rb
+[10Cmodified: no
+[9Cuser name: ankushtiger   host name: TIGER02906
+[8Cprocess ID: 4007 (STILL RUNNING)
+While opening file "test.rb"
+[13Cdated: Thu Apr 06 10:15:21 2023
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r test.rb"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".test.rb.swp"
+    to avoid this message.
+
+[32mSwap file ".test.rb.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[m[43;1H[K[?25l[43;1H"test.rb" 3L, 37C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hasdnabjsdn
+asdasdasd
+asdjbaksdjhasda
+[94m~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [m[43;151H3,14[10CAll[3;14H[?25h[?25l[43;141Hi[3;14H[43;141H [3;14H[43;1H[1m-- INSERT --[m[43;13H[K[43;151H3,14[10CAll[3;14H[?25h[?25lsda[43;154H5[3;15H[?25h[?25ldda[43;154H6[3;16H[?25h[?25lida[43;154H7[3;17H[?25h[?25lfda[43;154H8[3;18H[?25h[?25lsda[43;154H9[3;19H[?25h[?25lida[43;153H20[3;20H[?25h[?25ldda[43;154H1[3;21H[?25h[?25lfda[43;154H2[3;22H[?25h[?25ljda[43;154H3[3;23H[?25h[?25l[3;23H[K[4;1Hda[4;3H[K[43;151H4,1 [4;1H[?25h[?25lsda[43;153H2[4;2H[?25h[?25loda[43;153H3[4;3H[?25h[?25ldda[43;153H4[4;4H[?25h[?25lfda[43;153H5[4;5H[?25h[?25lnda[43;153H6[4;6H[?25h[?25lsda[43;153H7[4;7H[?25h[?25ldda[43;153H8[4;8H[?25h[?25lfda[43;153H9[4;9H[?25h[?25lsda[43;153H10[4;10H[?25h[?25loda[43;154H1[4;11H[?25h[?25ldda[43;154H2[4;12H[?25h[?25lfda[43;154H3[4;13H[?25h[?25lsda[43;154H4[4;14H[?25h[?25lfda[43;154H5[4;15H[?25h[?25ldda[43;154H6[4;16H[?25h[?25lkda[43;154H7[4;17H[?25h[?25l[43;154H8[4;18H[?25h[?25l[43;154H9[4;19H[?25h[?25l][43;153H20[4;20H[?25h[?25l[4;19H[K[43;153H19[4;19H[?25h[?25l[5;1H[K[43;151H5,1 [5;1H[?25h[?25ls[43;153H2[5;2H[?25h[?25ld[43;153H3[5;3H[?25h[?25lj[43;153H4[5;4H[?25h[?25lf[43;153H5[5;5H[?25h[?25ln[43;153H6[5;6H[?25h[?25ls[43;153H7[5;7H[?25h[?25lf[43;153H8[5;8H[?25h[?25lk[43;153H9[5;9H[?25h[?25l[5;8H[K[43;153H8[5;8H[?25h[?25l[5;7H[K[43;153H7[5;7H[?25h[?25l[5;6H[K[43;153H6[5;6H[?25h[?25l[5;5H[K[43;153H5[5;5H[?25h[?25l[5;4H[K[43;153H4[5;4H[?25h[?25l[5;3H[K[43;153H3[5;3H[?25h[?25l[5;2H[K[43;153H2[5;2H[?25h[?25l[5;1H[K[43;153H1[5;1H[?25h[?25l[94m~                                                                                                                                                                       [m[43;151H4,19[4;19H[?25h[?25l[4;18H[K[43;154H8[4;18H[?25h[?25l[4;17H[K[43;154H7[4;17H[?25h[?25l[4;16H[K[43;154H6[4;16H[?25h[?25l[4;15H[K[43;154H5[4;15H[?25h[?25l[4;14H[K[43;154H4[4;14H[?25h[?25l[4;13H[K[43;154H3[4;13H[?25h[?25l[4;12H[K[43;154H2[4;12H[?25h[?25l[4;11H[K[43;154H1[4;11H[?25h[?25l[4;10H[K[43;154H0[4;10H[?25h[?25l[4;9H[K[43;153H9 [4;9H[?25h[?25l[4;8H[K[43;153H8[4;8H[?25h[?25l[4;7H[K[43;153H7[4;7H[?25h[?25l[4;6H[K[43;153H6[4;6H[?25h[?25l[4;5H[K[43;153H5[4;5H[?25h[?25l[4;4H[K[43;153H4[4;4H[?25h[?25l[4;3H[K[43;153H3[4;3H[?25h[?25l[4;2H[K[43;153H2[4;2H[?25h[?25l[4;1H[K[43;153H1[4;1H[?25h[?25l[94m~                                                                                                                                                                       [m[43;151H3,23[3;23H[?25h[?25l[3;22H[K[43;154H2[3;22H[?25h[?25l[3;21H[K[43;154H1[3;21H[?25h[?25l[3;20H[K[43;154H0[3;20H[?25h[?25l[3;19H[K[43;153H19[3;19H[?25h[?25l[3;18H[K[43;154H8[3;18H[?25h[?25l[3;17H[K[43;154H7[3;17H[?25h[?25l[3;16H[K[43;154H6[3;16H[?25h[?25l[3;15H[K[43;154H5[3;15H[?25h[?25l[3;14H[K[43;154H4[3;14H[?25h[?25l[3;13H[K[43;154H3[3;13H[?25h[?25l[3;12H[K[43;154H2[3;12H[?25h[?25l[3;11H[K[43;154H1[3;11H[?25h[?25l[3;10H[K[43;154H0[3;10H[?25h[?25l[3;9H[K[43;153H9 [3;9H[?25h[?25l[3;8H[K[43;153H8[3;8H[?25h[?25l[3;7H[K[43;153H7[3;7H[?25h[?25l[3;6H[K[43;153H6[3;6H[?25h[?25l[3;5H[K[43;153H5[3;5H[?25h[?25l[3;4H[K[43;153H4[3;4H[?25h[?25l[3;3H[K[43;153H3[3;3H[?25h[?25l[3;2H[K[43;153H2[3;2H[?25h[?25l[3;1H[K[43;153H1[3;1H[?25h[?25l[94m~                                                                                                                                                                       [m[43;151H2,10[2;10H[?25h[?25l[2;9H[K[43;153H9 [2;9H[?25h[?25l[2;8H[K[43;153H8[2;8H[?25h[?25l[2;7H[K[43;153H7[2;7H[?25h[?25l[2;6H[K[43;153H6[2;6H[?25h[?25l[2;5H[K[43;153H5[2;5H[?25h[?25l[2;4H[K[43;153H4[2;4H[?25h[?25l[2;3H[K[43;153H3[2;3H[?25h[?25l[2;2H[K[43;153H2[2;2H[?25h[?25l[2;1H[K[43;153H1[2;1H[?25h[?25l[94m~                                                                                                                                                                       [m[43;151H1,11[1;11H[?25h[?25l[1;10H[K[43;154H0[1;10H[?25h[?25l[1;9H[K[43;153H9 [1;9H[?25h[?25l[1;8H[K[43;153H8[1;8H[?25h[?25l[1;7H[K[43;153H7[1;7H[?25h[?25l[1;6H[K[43;153H6[1;6H[?25h[?25l[1;5H[K[43;153H5[1;5H[?25h[?25l[1;4H[K[43;153H4[1;4H[?25h[?25l[1;3H[K[43;153H3[1;3H[?25h[?25l[1;2H[K[43;153H2[1;2H[?25h[?25l[1;1H[K[43;153H1[1;1H[?25h[?25l[32mT[m[43;153H2[1;2H[?25h[?25l[32mh[m[43;153H3[1;3H[?25h[?25l[32mi[m[43;153H4[1;4H[?25h[?25l[32ms[m[43;153H5[1;5H[?25h[?25l[43;153H6[1;6H[?25h[?25li[43;153H7[1;7H[?25h[?25ls[43;153H8[1;8H[?25h[?25l[43;153H9[1;9H[?25h[?25lf[43;153H10[1;10H[?25h[?25lo[43;154H1[1;11H[?25h[?25l[38;5;130mfor[m[43;154H2[1;12H[?25h[?25l[43;154H3[1;13H[?25h[?25lt[43;154H4[1;14H[?25h[?25le[43;154H5[1;15H[?25h[?25ls[43;154H6[1;16H[?25h[?25lt[43;154H7[1;17H[?25h[?25li[43;154H8[1;18H[?25h[?25ln[43;154H9[1;19H[?25h[?25lg[43;153H20[1;20H[?25h[43;1H[K[1;19H[?25l[43;141H^[[1;19H[43;141H  [1;20H[43;151H1,19[10CAll[1;19H[?25h[?25l[43;141H:[1;19H[43;141H[K[43;1H:[?2004h[?25hwq[?25l[?2004l"test.rb" 1L, 20C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch testing
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   test.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -a -m 'made a change'
+[testing a944e47] made a change
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch
+[?1h=  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git head testing
+git: 'head' is not a git command. See 'git --help'.
+
+The most similar command is
+	help
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ vim test.rb
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;43r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[43;1H"test.rb" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                                                       [3;1H~                                                                                                                                                                       [4;1H~                                                                                                                                                                       [5;1H~                                                                                                                                                                       [6;1H~                                                                                                                                                                       [7;1H~                                                                                                                                                                       [8;1H~                                                                                                                                                                       [9;1H~                                                                                                                                                                       [10;1H~                                                                                                                                                                       [11;1H~                                                                                                                                                                       [12;1H~                                                                                                                                                                       [13;1H~                                                                                                                                                                       [14;1H~                                                                                                                                                                       [15;1H~                                                                                                                                                                       [16;1H~                                                                                                                                                                       [17;1H~                                                                                                                                                                       [18;1H~                                                                                                                                                                       [19;1H~                                                                                                                                                                       [20;1H~                                                                                                                                                                       [21;1H~                                                                                                                                                                       [22;1H~                                                                                                                                                                       [23;1H~                                                                                                                                                                       [24;1H~                                                                                                                                                                       [25;1H~                                                                                                                                                                       [26;1H~                                                                                                                                                                       [27;1H~                                                                                                                                                                       [28;1H~                                                                                                                                                                       [29;1H~                                                                                                                                                                       [30;1H~                                                                                                                                                                       [31;1H~                                                                                                                                                                       [32;1H~                                                                                                                                                                       [33;1H~                                                                                                                                                                       [34;1H~                                                                                                                                                                       [35;1H~                                                                                                                                                                       [36;1H~                                                                                                                                                                       [37;1H~                                                                                                                                                                       [38;1H~                                                                                                                                                                       [39;1H~                                                                                                                                                                       [40;1H~                                                                                                                                                                       [41;1H~                                                                                                                                                                       [42;1H~                                                                                                                                                                       [m[43;151H0,0-1[9CAll[1;1H[?25h[?25l[43;141H^[[1;1H[43;143H[[1;1H[43;144H>[1;1H[43;145H0[1;1H[43;146H;[1;1H[43;147H1[1;1H[43;148H0[1;1H[43;149H;[1;1H[43;141H         [1;1H[?25h[?25l[43;141H:[1;1H[43;1H[K[43;1H:[?2004h[?25hth[?25l[43;3H[K[43;3H[?25h[?25l[43;2H[K[43;2H[?25h [?25l[1;1H[43;151H0,0-1[9CAll[1;1H[?25h[?25l[43;141H^[[1;1H[43;141H  [1;1H[43;141H^[[1;1H[43;141H  [1;1H[?25h[?25l[43;141Hi[1;1H[43;141H [1;1H[43;1H[1m-- INSERT --[m[43;151H[K[43;151H0,1[11CAll[1;1H[?25h[?25l[32mT[m[43;151H1,2[1;2H[?25h[?25l[32mh[m[43;153H3[1;3H[?25h[?25l[32mi[m[43;153H4[1;4H[?25h[?25l[32ms[m[43;153H5[1;5H[?25h[?25l[43;153H6[1;6H[?25h[?25li[43;153H7[1;7H[?25h[?25ls[43;153H8[1;8H[?25h[?25l[43;153H9[1;9H[?25h[?25lc[43;153H10[1;10H[?25h[?25lh[43;154H1[1;11H[?25h[?25la[43;154H2[1;12H[?25h[?25ln[43;154H3[1;13H[?25h[?25lg[43;154H4[1;14H[?25h[?25le[43;154H5[1;15H[?25h[?25l[43;154H6[1;16H[?25h[?25li[43;154H7[1;17H[?25h[?25l[38;5;130min[m[43;154H8[1;18H[?25h[?25l[43;154H9[1;19H[?25h[?25lm[43;153H20[1;20H[?25h[?25la[43;154H1[1;21H[?25h[?25li[43;154H2[1;22H[?25h[?25ln[43;154H3[1;23H[?25h[43;1H[K[1;22H[?25l[43;141H^[[1;22H[43;141H  [1;23H[43;151H1,22[10CAll[1;22H[?25h[?25l[43;141H:[1;22H[43;141H[K[43;1H:[?2004h[?25hwq[?25l[?2004l"test.rb" [New] 1L, 23C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -a -m 'made other changes'
+[main 48d72fe] made other changes
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.rb
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git log --oneline --decorate --graph --all
+[?1h=* [33m48d72fe[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m made other changes[m
+* [33md4f6081[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m adding readme[m
+* [33m0d38714[m adding readme[m
+* [33mfd690c8[m deleting everything[m
+* [33m2478d04[m adding readme[m
+* [33ma10d1d5[m adding readme[m
+*   [33mc56299c[m removing everything[m
+[32m|[m[33m\[m  [m
+[32m|[m * [33me84af09[m[33m ([m[1;32miss53[m[33m)[m Finish the new footer [issue 53][m
+[32m|[m * [33m4268549[m Create new footer [issue 53][m
+* [33m|[m [33mf29df6d[m Fix broken email address[m
+[33m|[m[33m/[m  [m
+[33m|[m * [33ma944e47[m[33m ([m[1;32mtesting[m[33m)[m made a change[m
+[33m|[m * [33m762cdc5[m made another change[m
+[33m|[m * [33mc6312dc[m made a change[m
+[33m|[m[33m/[m  [m
+* [33m83852e4[m first commit[m
+* [33m548449d[m first commit[m
+* [33mb8586b0[m Initial commit[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git merge testing
+CONFLICT (add/add): Merge conflict in test.rb
+Auto-merging test.rb
+Automatic merge failed; fix conflicts and then commit the result.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	[32mnew file:   .test.rb.swp[m
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth added:      test.rb[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
+Merging:
+test.rb
+
+Normal merge conflict for 'test.rb':
+  {local}: created file
+  {remote}: created file
+Hit return to start merge resolution tool (bc): 
+The merge tool bc is not available as 'bcompare'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git config --global merge.tool opendiff
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git config --global merge.tool opendiffmergetool[K
+Merging:
+test.rb
+
+Normal merge conflict for 'test.rb':
+  {local}: created file
+  {remote}: created file
+The merge tool opendiff is not available as 'opendiff'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git mergetool -t opendiff
+Merging:
+test.rb
+
+Normal merge conflict for 'test.rb':
+  {local}: created file
+  {remote}: created file
+The merge tool opendiff is not available as 'opendiff'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git mergetool -t opendiff[K -t bc
+Merging:
+test.rb
+
+Normal merge conflict for 'test.rb':
+  {local}: created file
+  {remote}: created file
+The merge tool bc is not available as 'bcompare'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git difftool -d -x gdiff
+error: cannot run gdiff: No such file or directory
+warning: failed: -1
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ 
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git difftool --tool=opendiff
+[1mdiff --cc test.rb[m
+[1mindex 398213b,66deb95..0000000[m
+[1m--- a/test.rb[m
+[1m+++ b/test.rb[m
+[36m@@@ -1,1 -1,1 +1,5 @@@[m
+[32m++<<<<<<< HEAD[m
+[32m +This is change in main[m
+[32m++=======[m
+[32m+ This is for testing[m
+[32m++>>>>>>> testing[m
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	[32mnew file:   .test.rb.swp[m
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth added:      test.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_BACKUP_4654.rb[m
+	[31mtest_BACKUP_4721.rb[m
+	[31mtest_BACKUP_4774.rb[m
+	[31mtest_BACKUP_4821.rb[m
+	[31mtest_BASE_4654.rb[m
+	[31mtest_BASE_4721.rb[m
+	[31mtest_BASE_4774.rb[m
+	[31mtest_BASE_4821.rb[m
+	[31mtest_LOCAL_4654.rb[m
+	[31mtest_LOCAL_4721.rb[m
+	[31mtest_LOCAL_4774.rb[m
+	[31mtest_LOCAL_4821.rb[m
+	[31mtest_REMOTE_4654.rb[m
+	[31mtest_REMOTE_4721.rb[m
+	[31mtest_REMOTE_4774.rb[m
+	[31mtest_REMOTE_4821.rb[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .=[K[Ktest.rb
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mnew file:   .test.rb.swp[m
+	[32mmodified:   test.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_BACKUP_4654.rb[m
+	[31mtest_BACKUP_4721.rb[m
+	[31mtest_BACKUP_4774.rb[m
+	[31mtest_BACKUP_4821.rb[m
+	[31mtest_BASE_4654.rb[m
+	[31mtest_BASE_4721.rb[m
+	[31mtest_BASE_4774.rb[m
+	[31mtest_BASE_4821.rb[m
+	[31mtest_LOCAL_4654.rb[m
+	[31mtest_LOCAL_4721.rb[m
+	[31mtest_LOCAL_4774.rb[m
+	[31mtest_LOCAL_4821.rb[m
+	[31mtest_REMOTE_4654.rb[m
+	[31mtest_REMOTE_4721.rb[m
+	[31mtest_REMOTE_4774.rb[m
+	[31mtest_REMOTE_4821.rb[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git commit -m""c"o"m"m"i"t"i"n"g" "t"e"s"t"
+[main f59c95d] commiting test
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 18, done.
+Counting objects:   5% (1/18)Counting objects:  11% (2/18)Counting objects:  16% (3/18)Counting objects:  22% (4/18)Counting objects:  27% (5/18)Counting objects:  33% (6/18)Counting objects:  38% (7/18)Counting objects:  44% (8/18)Counting objects:  50% (9/18)Counting objects:  55% (10/18)Counting objects:  61% (11/18)Counting objects:  66% (12/18)Counting objects:  72% (13/18)Counting objects:  77% (14/18)Counting objects:  83% (15/18)Counting objects:  88% (16/18)Counting objects:  94% (17/18)Counting objects: 100% (18/18)Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   6% (1/16)Writing objects:  12% (2/16)Writing objects:  18% (3/16)Writing objects:  25% (4/16)Writing objects:  31% (5/16)Writing objects:  37% (6/16)Writing objects:  43% (7/16)Writing objects:  50% (8/16)Writing objects:  56% (9/16)Writing objects:  62% (10/16)Writing objects:  68% (11/16)Writing objects:  75% (12/16)Writing objects:  81% (13/16)Writing objects:  87% (14/16)Writing objects:  93% (15/16)Writing objects: 100% (16/16)Writing objects: 100% (16/16), 1.61 KiB | 411.00 KiB/s, done.
+Total 16 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:ankushtiger/my_project.git
+   d4f6081..f59c95d  main -> main
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch -d=[K[K[K
+[?1h=  iss53[m[m
+* [32mmain[m[m
+  testing[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch -d iss53
+Deleted branch iss53 (was e84af09).
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch -d iss53[K
+[?1h=* [32mmain[m[m
+  testing[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout testing
+Switched to branch 'testing'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_BACKUP_4654.rb[m
+	[31mtest_BACKUP_4721.rb[m
+	[31mtest_BACKUP_4774.rb[m
+	[31mtest_BACKUP_4821.rb[m
+	[31mtest_BASE_4654.rb[m
+	[31mtest_BASE_4721.rb[m
+	[31mtest_BASE_4774.rb[m
+	[31mtest_BASE_4821.rb[m
+	[31mtest_LOCAL_4654.rb[m
+	[31mtest_LOCAL_4721.rb[m
+	[31mtest_LOCAL_4774.rb[m
+	[31mtest_LOCAL_4821.rb[m
+	[31mtest_REMOTE_4654.rb[m
+	[31mtest_REMOTE_4721.rb[m
+	[31mtest_REMOTE_4774.rb[m
+	[31mtest_REMOTE_4821.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git rm -r .
+rm '.test.rb.swp'
+rm 'README'
+rm 'README.md'
+rm 'test.rb'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git rm -r .[1Pstatus
+On branch testing
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    .test.rb.swp[m
+	[32mdeleted:    README[m
+	[32mdeleted:    README.md[m
+	[32mdeleted:    test.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_BACKUP_4654.rb[m
+	[31mtest_BACKUP_4721.rb[m
+	[31mtest_BACKUP_4774.rb[m
+	[31mtest_BACKUP_4821.rb[m
+	[31mtest_BASE_4654.rb[m
+	[31mtest_BASE_4721.rb[m
+	[31mtest_BASE_4774.rb[m
+	[31mtest_BASE_4821.rb[m
+	[31mtest_LOCAL_4654.rb[m
+	[31mtest_LOCAL_4721.rb[m
+	[31mtest_LOCAL_4774.rb[m
+	[31mtest_LOCAL_4821.rb[m
+	[31mtest_REMOTE_4654.rb[m
+	[31mtest_REMOTE_4721.rb[m
+	[31mtest_REMOTE_4774.rb[m
+	[31mtest_REMOTE_4821.rb[m
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git pus[K[K[Kcommit -m""t"e"s"t"i"n"g"
+[testing 093363b] testing
+ 4 files changed, 5 deletions(-)
+ delete mode 100644 .test.rb.swp
+ delete mode 100644 README
+ delete mode 100644 README.md
+ delete mode 100644 test.rb
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+fatal: The current branch testing has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin testing
+
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push --set-upstream origin testing
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1/1)Compressing objects: 100% (1/1), done.
+Writing objects:  50% (1/2)Writing objects: 100% (2/2)Writing objects: 100% (2/2), 201 bytes | 50.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'testing' on GitHub by visiting:[K
+remote:      https://github.com/ankushtiger/my_project/pull/new/testing[K
+remote: 
+To github.com:ankushtiger/my_project.git
+ * [new branch]      testing -> testing
+Branch 'testing' set up to track remote branch 'testing' from 'origin'.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push --set-upstream origin testing[Kcommit -m"testing"[12Pstatusrm -r .[1Pstatuscheckout testing[9Pbranch -d iss53[K[K[K[K[Ktesting
+error: Cannot delete branch 'testing' checked out at '/home/ankushtiger/my_project'
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout mainbranch -d testing
+warning: deleting branch 'testing' that has been merged to
+         'refs/remotes/origin/testing', but not yet merged to HEAD.
+Deleted branch testing (was 093363b).
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ exit
+exit
+There are stopped jobs.
+(base) ]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cd ..
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+(base) ]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ conda deactivate
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ cd my_project
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout -b develop
+Switched to a new branch 'develop'
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ gitr [K[K[Kt branch
+[?1h=* [32mdevelop[m[m
+  main[m[m
+[K[?1l>]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+readme.txt           test_BACKUP_4721.rb  test_BASE_4654.rb  test_BASE_4821.rb   test_LOCAL_4774.rb   test_REMOTE_4721.rb
+test.rb              test_BACKUP_4774.rb  test_BASE_4721.rb  test_LOCAL_4654.rb  test_LOCAL_4821.rb   test_REMOTE_4774.rb
+test_BACKUP_4654.rb  test_BACKUP_4821.rb  test_BASE_4774.rb  test_LOCAL_4721.rb  test_REMOTE_4654.rb  test_REMOTE_4821.rb
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ lsgit branchcheckout -b develop[K[K[K[K[K[K[K[K[K[Kmain
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git rm[K[Kbrancg[Kh -d develop
+Deleted branch develop (was f59c95d).
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+readme.txt           test_BACKUP_4721.rb  test_BASE_4654.rb  test_BASE_4821.rb   test_LOCAL_4774.rb   test_REMOTE_4721.rb
+test.rb              test_BACKUP_4774.rb  test_BASE_4721.rb  test_LOCAL_4654.rb  test_LOCAL_4821.rb   test_REMOTE_4774.rb
+test_BACKUP_4654.rb  test_BACKUP_4821.rb  test_BASE_4774.rb  test_LOCAL_4721.rb  test_REMOTE_4654.rb  test_REMOTE_4821.rb
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+readme.txt  test.rb
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git checkout -b develop
+Switched to a new branch 'develop'
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ ls
+readme.txt  test.rb
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ echo new develop[1@"[C[C[C[C[C[C[C[C[C[C[C" >> new_develop.tex[K[Kxt
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch develop
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    .test.rb.swp[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mnew_develop.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git add .
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git status
+On branch develop
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mdeleted:    .test.rb.swp[m
+	[32mnew file:   new_develop.txt[m
+
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ gti [K[K[Kit commit -m""d"e"v"e"l"o"p" "c"o"m"m"i"t"
+[develop b6c148c] develop commit
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 .test.rb.swp
+ create mode 100644 new_develop.txt
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push --set-upstream origin develop[K[K[K[K[K[K[Kmain
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ git push --set-upstream origin main[K[K[K[Kdevelop
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 333 bytes | 166.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:[K
+remote:      https://github.com/ankushtiger/my_project/pull/new/develop[K
+remote: 
+To github.com:ankushtiger/my_project.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ [K]0;ankushtiger@TIGER02906: ~/my_project[01;32mankushtiger@TIGER02906[00m:[01;34m~/my_project[00m$ cd ..
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ go[Kit clone https://github.com/ankushtiger/mle-training.git
+Cloning into 'mle-training'...
+Username for 'https://github.com': ankushtiger
+Password for 'https://ankushtiger@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ankushtiger/mle-training.git/'
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ cd [K[K[K
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ gh repo clone ankushtiger/mle-training
+
+Command 'gh' not found, but can be installed with:
+
+sudo apt install gitsome
+
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git clone git@github.com:ankushtiger/mle-training.git
+Cloning into 'mle-training'...
+Enter passphrase for key '/home/ankushtiger/.ssh/id_rsa': 
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git checkout moe[K[Kle_training
+fatal: not a git repository (or any of the parent directories): .git
+]0;ankushtiger@TIGER02906: ~[01;32mankushtiger@TIGER02906[00m:[01;34m~[00m$ git checkout mle_training[Kgit checkout mle_training[Kgit checkout mle_training[C[C[Kexit
+There are stopped jobs.
+
+Script done on 2023-04-07 02:38:41+05:30 [COMMAND_EXIT_CODE="0"]
